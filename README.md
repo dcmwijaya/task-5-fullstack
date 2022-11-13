@@ -29,6 +29,4 @@ php artisan serve
 <br><br>
 
 ## keterangan
-Dalam proses pengembangan....
-=======
->>>>>>> a1910b6e25148b5fd210f76831409edca5c0c9dd
+Dalam proses pengembangan.....

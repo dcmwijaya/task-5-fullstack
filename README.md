@@ -25,10 +25,7 @@ php artisan serve
 ````
 </ul><br>
 2.Buka Chrome -> Tambahkan extensions yang bernama "Vue.js devtools"
-<<<<<<< HEAD
 <br><br>
 
 ## keterangan
-Dalam proses pengembangan....
-=======
->>>>>>> a1910b6e25148b5fd210f76831409edca5c0c9dd
+Dalam proses pengembangan.....

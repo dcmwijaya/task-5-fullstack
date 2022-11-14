@@ -1,22 +1,20 @@
 @extends('layouts.app')
 
 @section('content')
-    @guest
-    @else
     <div class="container mt-4 pt-4">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header"><h1><i class="bi bi-person-rolodex me-1"></i> {{ __('My Profile') }}</h1><hr></div>
-                    @if ($msgLogin = Session::get('LoginNotif'))
+                    @if (session('LoginNotif'))
                         <div class="alert alert-info alert-dismissible fade show m-3 mt-3 md-3" role="alert">
                             <small class="text-muted"><i class="bi bi-info-square-fill me-1"></i>
-                                {{ $msgLogin }}
+                                {{ "Anda berhasil masuk!!" }}
                             </small>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     @endif
-                    @if ($msgUpdProf = Session::get('updateProfileNotif'))
+                    @if ($msgUpdProf = session('updateProfileNotif'))
                         <div class="alert alert-success alert-dismissible fade show m-3 mt-3 md-3" role="alert">
                             <small class="text-muted"><i class="bi bi-info-square-fill me-1"></i>
                                 {{ $msgUpdProf }}
@@ -24,6 +22,8 @@
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     @endif
+                    @guest
+                    @else
                     <div class="card-body">
                         <div class="row row-cols-1 row-cols-md-12 md-3">
                             <div class="col">

@@ -107,34 +107,37 @@
         </div>
     </div>   
 
-    <div class="modal fade modalmenu mt-4" id="EditProfile" tabindex="-1" aria-labelledby="EditProfileLabel" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade modalmenu" id="EditProfile" tabindex="-1" aria-labelledby="EditProfileLabel" aria-hidden="true">
+        <div class="modal-dialog" style="min-width:1000px;min-height:500px;align-items:center;">
             <div class="modal-content">
                 <div class="modal-header bg-secondary text-light">
                     <h5 class="modal-title"><i class="bi bi-person-bounding-box me-1"></i> Ubah Profil</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form class="row g-2" action="{{ url('/updateprofile') }}" method="POST" enctype="multipart/form-data">
+                    <form class="row g-2" action="{{ url('/edit_profile') }}" method="POST" enctype="multipart/form-data">
                         @csrf
-                        <input type="hidden" name="user_id" id="prfsiswaID" value="{{ Auth::user()->id }}">
                         <div class="row col-md-12">
-                            <div class="col-md-6 mt-4">
-                                <label for="prfname"><i class="bi bi-person me-1"></i> Ubah Nama Pengguna</label>
+                            <div class="col-md-4 mt-4">
+                                <label for="prfname" class="col-form-label"><i class="bi bi-person me-1"></i>{{ __('Nama') }}</label>
                                 <input type="text" class="form-control mt-2" name="name" id="prfname" value="{{ Auth::user()->name }}" placeholder="Ubah nama..." required>
                             </div>
-                            <div class="col-md-6 mt-4">
-                                <label for="prfaddress"><i class="fa-solid fa-house-chimney-user me-1"></i> Ubah Tempat Tinggal</label>
-                                <input type="text" class="form-control mt-2" name="name" id="prfaddress" value="{{ Auth::user()->tinggal }}" placeholder="Ubah tempat tinggal..." required>
+                            <div class="col-md-4 mt-4">
+                                <label for="prfwork" class="col-form-label"><i class="fa-solid fa-briefcase me-1"></i>{{ __('Pekerjaan') }}</label>
+                                <input type="text" class="form-control mt-2" name="pekerjaan" id="prfwork" value="{{ Auth::user()->pekerjaan }}" placeholder="Ubah pekerjaan..." required>
+                            </div>
+                            <div class="col-md-4 mt-4">
+                                <label for="prfaddress" class="col-form-label"><i class="fa-solid fa-house-chimney-user me-1"></i>{{ __('Tempat Tinggal') }}</label>
+                                <input type="text" class="form-control mt-2" name="tinggal" id="prfaddress" value="{{ Auth::user()->tinggal }}" placeholder="Ubah tempat tinggal..." required>
                             </div>
                         </div>
                         <div class="row col-md-12">
-                            <div class="col-md-6 mt-4">
-                                <label for="prfemail"><i class="bi bi-envelope me-1"></i> Ubah Email Pengguna</label>
+                            <div class="col-md-4 mt-4">
+                                <label for="prfemail" class="col-form-label"><i class="bi bi-envelope me-1"></i>{{ __('Email') }}</label>
                                 <input type="email" class="form-control mt-2" name="email" id="prfemail" value="{{ Auth::user()->email }}" placeholder="Ubah email..." required>
                             </div>
-                            <div class="col-md-6 mt-4">
-                                <label for="prfpassword"><i class="bi bi-key me-1"></i> Ubah Kata Sandi</label>
+                            <div class="col-md-4 mt-4">
+                                <label for="prfpassword" class="col-form-label"><i class="bi bi-key me-1"></i>{{ __('Kata Sandi') }}</label>
                                 <div class="input-group mb-3">
                                     <button onclick="ShowPassProfile()" class="btn btn-outline-secondary mt-2" type="button">
                                         <i class="bi bi-eye-fill"></i>
@@ -142,13 +145,20 @@
                                     <input type="password" class="form-control mt-2" name="password" id="prfpassword" placeholder="Ubah kata sandi..." required>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row col-md-12">
-                            <div class="col-md-12 mt-2">
-                                <label for="prfimg"><i class="bi bi-card-image me-1"></i> Ubah Foto Pengguna</label>
+                            <div class="col-md-4 mt-4">
+                                <label for="prfimg" class="col-form-label"><i class="bi bi-card-image me-1"></i>{{ __('Pilih Foto Pengguna') }}</label>
                                 <div class="input-group mb-3 mt-2">
                                     <input type="file" class="form-control" name="image" id="prfimg">
                                 </div>
+                            </div>
+                        </div>
+                        <div class="row col-md-12">
+                            <div class="col-md-12 mt-2">
+                                <label for="prfgender" class="col-form-label"><i class="bi bi-gender-ambiguous me-1"></i>{{ __('Pilih Jenis Kelamin Anda') }}</label>
+                                <select id="prfgender" name="jenis_kelamin" class="form-select g-3 mb-3" aria-label=".form-select-lg example">
+                                    <option value="L" class="text-small" selected>Laki-Laki (L)</option>
+                                    <option value="P" class="text-small">Perempuan (P)</option>
+                                </select>
                             </div>
                         </div>
                     </div>

@@ -21,4 +21,4 @@ Auth::routes();
 Route::get('/', [PublicController::class, 'index'])->name('index');
 Route::get('/login', [PublicController::class, 'login'])->name('login');
 Route::get('/profile', [PrivateController::class, 'profile'])->name('profile')->middleware('auth');
-Route::get('/editprofile', [PrivateController::class, 'edit_profile'])->name('edit_profile')->middleware('auth');
+Route::post('/edit_profile', [PrivateController::class, 'edit_profile'])->name('edit_profile')->middleware('auth');

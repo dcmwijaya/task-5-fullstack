@@ -19,7 +19,7 @@
                         </li>
                         <li class="nav-item me-2">
                             <a class="nav-link" aria-current="page" href="#">
-                                <i class="fa-regular fa-comments me-2"></i>Galeri</a>
+                                <i class="fa-regular fa-comments me-2"></i>Interaksi</a>
                         </li>
                     </ul>
                     @endguest
@@ -44,7 +44,7 @@
                         @else
                             <div class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" type="button" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                                    {{ Auth::user()->name }} <img src="{{ asset('img/profile/admin.jpg') }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                                    {{ Auth::user()->name }} <img src="{{ Auth::user()->image }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="{{ route('edit_profile') }}">

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 13 Nov 2022 pada 09.26
+-- Waktu pembuatan: 14 Nov 2022 pada 15.44
 -- Versi server: 10.4.17-MariaDB
 -- Versi PHP: 7.4.15
 
@@ -20,6 +20,27 @@ SET time_zone = "+00:00";
 --
 -- Database: `mytour`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `categories`
+--
+
+CREATE TABLE `categories` (
+  `id_categories` bigint(20) UNSIGNED NOT NULL,
+  `kategori` enum('khusus','umum') COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'umum',
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data untuk tabel `categories`
+--
+
+INSERT INTO `categories` (`id_categories`, `kategori`, `created_at`, `updated_at`) VALUES
+(1, 'khusus', NULL, NULL),
+(2, 'umum', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -58,8 +79,8 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (2, '2014_10_12_100000_create_password_resets_table', 1),
 (3, '2019_08_19_000000_create_failed_jobs_table', 1),
 (4, '2019_12_14_000001_create_personal_access_tokens_table', 1),
-(5, '2022_11_12_054450_create_post_table', 1),
-(6, '2022_11_12_054908_post_table', 2);
+(5, '2022_11_14_064545_create_categories_table', 1),
+(6, '2022_11_14_064841_create_posts_table', 1);
 
 -- --------------------------------------------------------
 
@@ -94,14 +115,25 @@ CREATE TABLE `personal_access_tokens` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `post`
+-- Struktur dari tabel `posts`
 --
 
-CREATE TABLE `post` (
-  `id` bigint(20) UNSIGNED NOT NULL,
+CREATE TABLE `posts` (
+  `id_post` bigint(20) UNSIGNED NOT NULL,
+  `gambarkonten` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `konten` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data untuk tabel `posts`
+--
+
+INSERT INTO `posts` (`id_post`, `gambarkonten`, `konten`, `created_at`, `updated_at`) VALUES
+(1, 'img/media/holiday1.jpg', 'Liburan pertama yang menyenangkan ~ Bali, Indonesia', NULL, NULL),
+(2, 'img/media/holiday2.jpg', 'Liburan kedua yang menyenangkan ~ Bali, Indonesia', NULL, NULL),
+(3, 'img/media/holiday3.jpg', 'Liburan ketiga yang menyenangkan ~ Bali, Indonesia', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -112,6 +144,11 @@ CREATE TABLE `post` (
 CREATE TABLE `users` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `jenis_kelamin` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `pekerjaan` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `tinggal` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `image` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `role` enum('admin','user') COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'user',
   `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email_verified_at` timestamp NULL DEFAULT NULL,
   `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -124,12 +161,20 @@ CREATE TABLE `users` (
 -- Dumping data untuk tabel `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Admin MyTour', 'admin@mytour.ac.id', NULL, '$2y$10$WyTdYEgFpcqQZ0pQIuzNhuBGpPax909DyFxl3vpx7LoNgl7tpmcue', NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `name`, `jenis_kelamin`, `pekerjaan`, `tinggal`, `image`, `role`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'Anastasya Geraldine', 'P', 'Pegawai Negeri', 'Surabaya', 'img\\profile\\admin.jpg', 'admin', 'admin@mytour.ac.id', NULL, '$2y$10$Yn7Y4UHSYZN6uXCq8qGNKecQRM8ZisCLCNciuWuBwnAp9fz8FzncK', NULL, NULL, NULL),
+(2, 'Andikha Refanza', 'L', 'Pegawai Swasta', 'Jakarta', 'img\\profile\\user.jpg', 'user', 'user1@mytour.ac.id', NULL, '$2y$10$jPOrvOJirhqtfNwRe9GczOBVJwPenIuKN.fqIwX9WH/gnCN1WZqBG', NULL, NULL, NULL),
+(3, 'Alfiansyah Nukita Prada', 'N', 'Mahasiswa', 'Bandung', 'img\\profile\\default.jpg', 'user', 'user2@mytour.ac.id', NULL, '$2y$10$4cpYGUyD2q98vGKgXOpL2uqstKSfdKmFbHPQLUHduDSHo2QmaiY1K', NULL, NULL, NULL);
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indeks untuk tabel `categories`
+--
+ALTER TABLE `categories`
+  ADD PRIMARY KEY (`id_categories`);
 
 --
 -- Indeks untuk tabel `failed_jobs`
@@ -159,10 +204,10 @@ ALTER TABLE `personal_access_tokens`
   ADD KEY `personal_access_tokens_tokenable_type_tokenable_id_index` (`tokenable_type`,`tokenable_id`);
 
 --
--- Indeks untuk tabel `post`
+-- Indeks untuk tabel `posts`
 --
-ALTER TABLE `post`
-  ADD PRIMARY KEY (`id`);
+ALTER TABLE `posts`
+  ADD PRIMARY KEY (`id_post`);
 
 --
 -- Indeks untuk tabel `users`
@@ -174,6 +219,12 @@ ALTER TABLE `users`
 --
 -- AUTO_INCREMENT untuk tabel yang dibuang
 --
+
+--
+-- AUTO_INCREMENT untuk tabel `categories`
+--
+ALTER TABLE `categories`
+  MODIFY `id_categories` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT untuk tabel `failed_jobs`
@@ -194,16 +245,16 @@ ALTER TABLE `personal_access_tokens`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT untuk tabel `post`
+-- AUTO_INCREMENT untuk tabel `posts`
 --
-ALTER TABLE `post`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+ALTER TABLE `posts`
+  MODIFY `id_post` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

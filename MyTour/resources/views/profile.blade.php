@@ -30,7 +30,7 @@
                                 <div class="card">
                                     <div class="row g-0">
                                         <div class="col-4">
-                                            <img src="{{ asset('img/profile/admin.jpg') }}" class="img-fluid rounded-start img-profile" alt="gambarpengguna" style="min-height:225px;min-width:auto;max-height:auto;max-width:auto;">
+                                            <img src="{{ Auth::user()->image }}" class="img-fluid rounded-start img-profile" alt="gambarpengguna" style="min-height:225px;min-width:auto;max-height:auto;max-width:auto;">
                                         </div>
                                         <div class="col-8">
                                             <div class="card-body">
@@ -60,8 +60,8 @@
                                                         <p class="card-text mt-2">
                                                             <strong><i class="fa-solid fa-briefcase me-1"></i> Pekerjaan :</strong><br>
                                                             <span class="text-lowercase">
-                                                                @if (Auth::user()->work != null)
-                                                                    {{ Auth::user()->work }}
+                                                                @if (Auth::user()->pekerjaan != null)
+                                                                    {{ Auth::user()->pekerjaan }}
                                                                 @else
                                                                     {{ "Data tidak ditemukan" }}
                                                                 @endif
@@ -86,8 +86,8 @@
                                                         <p class="card-text mt-2">
                                                             <strong><i class="fa-solid fa-house-chimney-user me-1"></i> Tinggal :</strong><br>
                                                             <span class="text-lowercase">
-                                                                @if (Auth::user()->city != null)
-                                                                    {{ Auth::user()->city }}
+                                                                @if (Auth::user()->tinggal != null)
+                                                                    {{ Auth::user()->tinggal }}
                                                                 @else
                                                                     {{ "Data tidak ditemukan" }}
                                                                 @endif
@@ -117,11 +117,15 @@
                 <div class="modal-body">
                     <form class="row g-2" action="{{ url('/updateprofile') }}" method="POST" enctype="multipart/form-data">
                         @csrf
-                        <input type="hidden" name="siswa_id" id="prfsiswaID" value="{{ Auth::user()->id }}">
+                        <input type="hidden" name="user_id" id="prfsiswaID" value="{{ Auth::user()->id }}">
                         <div class="row col-md-12">
-                            <div class="col-md-12 mt-2">
+                            <div class="col-md-6 mt-4">
                                 <label for="prfname"><i class="bi bi-person me-1"></i> Ubah Nama Pengguna</label>
                                 <input type="text" class="form-control mt-2" name="name" id="prfname" value="{{ Auth::user()->name }}" placeholder="Ubah nama..." required>
+                            </div>
+                            <div class="col-md-6 mt-4">
+                                <label for="prfaddress"><i class="fa-solid fa-house-chimney-user me-1"></i> Ubah Tempat Tinggal</label>
+                                <input type="text" class="form-control mt-2" name="name" id="prfaddress" value="{{ Auth::user()->tinggal }}" placeholder="Ubah tempat tinggal..." required>
                             </div>
                         </div>
                         <div class="row col-md-12">

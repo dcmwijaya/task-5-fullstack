@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
-class ArticlesController extends Controller
+class PrivateController extends Controller
 {
     public function __construct()
     {

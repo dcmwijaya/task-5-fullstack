@@ -11313,6 +11313,10 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   margin-left: 0;
 }
 
+.dropdown-show {
+  margin-left: 80px;
+}
+
 @media (min-width: 768px) {
   #sidebar-wrapper {
     margin-left: 0;

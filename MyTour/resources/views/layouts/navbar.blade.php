@@ -45,7 +45,7 @@
                                 <a class="nav-link dropdown-toggle" type="button" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                     {{ Auth::user()->name }} &nbsp; <img src="{{ Auth::user()->image }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> &nbsp;
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu dropdown-show">
                                     <li><a class="dropdown-item" href="{{ route('profile') }}">
                                         <i class="fa-regular fa-user me-2"></i>{{ __('Profile') }}
                                     </a></li>

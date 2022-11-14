@@ -15,11 +15,13 @@ class PostsCategories extends Seeder
     public function run()
     {
         DB::table('categories')->insert([
-            'kategori' => 'khusus'
+            'user_id' => '1',
+            'categories_name' => 'khusus'
         ]);
         
         DB::table('categories')->insert([
-            'kategori' => 'umum'
+            'user_id' => '2',
+            'categories_name' => 'umum'
         ]);
     }
 }

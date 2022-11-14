@@ -38,7 +38,7 @@ class UsersSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Alfiansyah Nukita Prada',
-            'jenis_kelamin' => 'N',
+            'jenis_kelamin' => 'L',
             'pekerjaan' => 'Mahasiswa',
             'tinggal' => 'Bandung',
             'image' => 'img\profile\default.jpg',

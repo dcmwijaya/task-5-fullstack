@@ -15,18 +15,27 @@ class UsersPosts extends Seeder
     public function run()
     {
         DB::table('posts')->insert([
-            'gambarkonten' => 'img/media/holiday1.jpg',
-            'konten' => 'Liburan pertama yang menyenangkan ~ Bali, Indonesia'
+            'user_id' => '1',
+            'category_id' => '2',
+            'title' => 'Liburan Bali 2018',
+            'image' => 'img/media/holiday1.jpg',
+            'content' => 'Liburan pertama yang menyenangkan ~ Bali, Indonesia'
         ]);
 
         DB::table('posts')->insert([
-            'gambarkonten' => 'img/media/holiday2.jpg',
-            'konten' => 'Liburan kedua yang menyenangkan ~ Bali, Indonesia'
+            'user_id' => '2',
+            'category_id' => '2',
+            'title' => 'Liburan Bali 2020',
+            'image' => 'img/media/holiday2.jpg',
+            'content' => 'Liburan kedua yang menyenangkan ~ Bali, Indonesia'
         ]);
 
         DB::table('posts')->insert([
-            'gambarkonten' => 'img/media/holiday3.jpg',
-            'konten' => 'Liburan ketiga yang menyenangkan ~ Bali, Indonesia'
+            'user_id' => '3',
+            'category_id' => '2',
+            'title' => 'Liburan Bali 2022',
+            'image' => 'img/media/holiday3.jpg',
+            'content' => 'Liburan ketiga yang menyenangkan ~ Bali, Indonesia'
         ]);
     }
 }

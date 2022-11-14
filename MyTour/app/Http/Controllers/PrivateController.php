@@ -12,13 +12,12 @@ class PrivateController extends Controller
 
     public function profile()
     {
-        // $msg1 = " Anda berhasil masuk!!";
-        // return view('profile')->with('LoginNotif', $msg1);
+        return view('profile');
     }
 
     public function edit_profile()
     {
-        $msg2 = " Anda berhasil mengubah data profil!!";
-        return view('profile')->with('updateProfileNotif', $msg2);
+        // $msg2 = " Anda berhasil mengubah data profil!!";
+        // return view('profile')->with('updateProfileNotif', $msg2);
     }
 }

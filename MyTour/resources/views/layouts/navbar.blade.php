@@ -47,8 +47,8 @@
                                     {{ Auth::user()->name }} <img src="{{ Auth::user()->image }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="{{ route('edit_profile') }}">
-                                        <i class="fa-regular fa-user me-2"></i>{{ __('Edit Profile') }}
+                                    <li><a class="dropdown-item" href="{{ route('profile') }}">
+                                        <i class="fa-regular fa-user me-2"></i>{{ __('Profile') }}
                                     </a></li>
                                     <li><a class="dropdown-item" href="{{ route('logout') }}"
                                         onclick="event.preventDefault();document.getElementById('logout-form').submit();">

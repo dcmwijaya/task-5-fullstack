@@ -59,7 +59,7 @@
                                                     <div class="col-6">
                                                         <p class="card-text mt-2">
                                                             <strong><i class="fa-solid fa-briefcase me-1"></i> Pekerjaan :</strong><br>
-                                                            <span class="text-lowercase">
+                                                            <span class="text-capitalize">
                                                                 @if (Auth::user()->pekerjaan != null)
                                                                     {{ Auth::user()->pekerjaan }}
                                                                 @else
@@ -85,7 +85,7 @@
                                                     <div class="col-6">
                                                         <p class="card-text mt-2">
                                                             <strong><i class="fa-solid fa-house-chimney-user me-1"></i> Tinggal :</strong><br>
-                                                            <span class="text-lowercase">
+                                                            <span class="text-capitalize">
                                                                 @if (Auth::user()->tinggal != null)
                                                                     {{ Auth::user()->tinggal }}
                                                                 @else

@@ -16,14 +16,14 @@
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     @endif
-                    {{-- @if ($msgUpdProf = Session::get('updateProfileNotif'))
+                    @if ($msgUpdProf = Session::get('updateProfileNotif'))
                         <div class="alert alert-success alert-dismissible fade show m-3 mt-3 md-3" role="alert">
                             <small class="text-muted"><i class="bi bi-info-square-fill me-1"></i>
                                 {{ $msgUpdProf }}
                             </small>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
-                    @endif --}}
+                    @endif
                     <div class="card-body">
                         <div class="row row-cols-1 row-cols-md-12 md-3">
                             <div class="col">
@@ -172,30 +172,6 @@
             </div>
         </div>
     </div>
-
-    <footer class="footer-bg d-flex flex-wrap justify-content-between align-items-center py-3 p-5 mt-5">
-        <div class="col-md-5 d-flex align-items-center">
-            <a class="navbar-brand me-5" href="#" style="pointer-events: none">
-                <img src="{{ asset('favicon/favicon-32x32.png') }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-bottom" />
-                <span class="text-muted monospace">© 2022 MyTour | All Rights Reserved</span>
-            </a>
-        </div>
-    
-        <ul class="nav col-md-3 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a type="submit" href="#" class="text-muted">
-                    <i class="bi bi-twitter"></i>
-                </a></li>
-            <li class="ms-3"><a type="submit" href="#" class="text-muted">
-                    <i class="bi bi-instagram"></i>
-                </a></li>
-            <li class="ms-3"><a type="submit" href="#" class="text-muted">
-                    <i class="bi bi-facebook"></i>
-                </a></li>
-        </ul>
-        <div class="col-md-5 d-flex align-items-center mt-1">
-            Jl. Mutiara, No. 28 A, KBD, Gresik, Jawa Timur
-        </div>
-    </footer>
     @endguest
 
     <script>

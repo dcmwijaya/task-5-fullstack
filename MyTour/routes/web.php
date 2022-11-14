@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\MenuController;
+use App\Http\Controllers\ArticlesController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Auth::routes();
-Route::get('/', [App\Http\Controllers\MenuController::class, 'index'])->name('index');
-Route::get('/login', [App\Http\Controllers\MenuController::class, 'login'])->name('login');
-Route::get('/home', [App\Http\Controllers\ArticlesController::class, 'index'])->name('home');
-Route::get('/edit', [App\Http\Controllers\ArticlesController::class, 'edit_profile'])->name('edit_profile');
+Route::get('/', [MenuController::class, 'index'])->name('index');
+Route::get('/login', [MenuController::class, 'login'])->name('login');
+Route::get('/profile', [ArticlesController::class, 'profile'])->name('profile');
+Route::get('/editprofile', [ArticlesController::class, 'edit_profile'])->name('edit_profile');

@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 
 class ArticlesController extends Controller
@@ -11,13 +10,15 @@ class ArticlesController extends Controller
         $this->middleware('auth');
     }
 
-    public function index()
+    public function profile()
     {
-        return view('home');
+        $msg1 = " Anda berhasil masuk!!";
+        return view('profile')->with('LoginNotif', $msg1);
     }
 
     public function edit_profile()
     {
-        return view('home');
+        $msg2 = " Anda berhasil mengubah data profil!!";
+        return view('profile')->with('updateProfileNotif', $msg2);
     }
 }

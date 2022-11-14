@@ -5370,7 +5370,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
@@ -28394,15 +28393,32 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
+    return _c("div", { staticClass: "container mt-4 pt-4" }, [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [_vm._v("MyTour")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v("\n                    Welcome\n                "),
-            ]),
+          _c("img", {
+            staticClass: "konten-beranda",
+            staticStyle: {
+              "max-height": "420px",
+              "max-width": "900px",
+              "align-items": "center",
+            },
+            attrs: {
+              src: "/img/content/homecontent.png",
+              alt: "Konten-Beranda",
+            },
+          }),
+          _vm._v(" "),
+          _c("h1", { staticClass: "text-center mt-3" }, [
+            _vm._v("MyTour Asyik Di Jalan Asyik Di Hati"),
+          ]),
+          _vm._v(" "),
+          _c("hr"),
+          _vm._v(" "),
+          _c("h5", { staticClass: "text-muted text-center" }, [
+            _vm._v(
+              "Perjalanan anda selama ini akan slalu menjadi magnet sejarah yang terukir\n                unik sepanjang masa,\n                dengan platform ini anda dapat berbagi cerita, buruan coba !!"
+            ),
           ]),
         ]),
       ]),

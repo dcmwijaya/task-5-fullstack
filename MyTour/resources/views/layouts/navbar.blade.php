@@ -1,5 +1,5 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
+            <div class="container small-container">
                 <a class="navbar-brand me-4" href="{{ url('/') }}">
                     <img src="{{ asset('favicon/favicon-32x32.png') }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                     <strong>{{ config('app.name', 'MyTour') }}</strong>
@@ -44,7 +44,7 @@
                         @else
                             <div class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" type="button" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                                    {{ Auth::user()->name }} <i class="bi bi-person-circle me-2"></i>
+                                    {{ Auth::user()->name }} <img src="{{ asset('img/profile/admin.jpg') }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="{{ route('edit_profile') }}">

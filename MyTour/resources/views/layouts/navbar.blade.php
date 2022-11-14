@@ -14,11 +14,11 @@
                     @else
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item me-2">
-                            <a class="nav-link" aria-current="page" href="#">
+                            <a class="nav-link" aria-current="page" href="{{ route('tulis_postingan') }}">
                                 <i class="fa-solid fa-feather-pointed me-2"></i>Tulis Postingan</a>
                         </li>
                         <li class="nav-item me-2">
-                            <a class="nav-link" aria-current="page" href="#">
+                            <a class="nav-link" aria-current="page" href="{{ route('interaksi') }}">
                                 <i class="fa-regular fa-comments me-2"></i>Interaksi</a>
                         </li>
                     </ul>

@@ -44,4 +44,14 @@ class PrivateController extends Controller
         $msg = " Anda berhasil mengubah data profil!!";
         return redirect()->route('profile')->with('updateProfileNotif', $msg);
     }
+
+    public function tulis_postingan()
+    {
+        return view('tulis_postingan');
+    }
+
+    public function interaksi()
+    {
+        return view('interaksi');
+    }
 }

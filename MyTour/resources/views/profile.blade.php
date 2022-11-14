@@ -35,10 +35,10 @@
                                         <div class="col-8">
                                             <div class="card-body">
                                                 <div class="row">
-                                                    <div class="col-11">
+                                                    <div class="col-10">
                                                         <h5 class="card-title"><strong>Informasi Pengguna</strong></h5>
                                                     </div>
-                                                    <div class="col-1">
+                                                    <div class="col-2">
                                                         <a class="nav-link btn btn-sm" data-bs-toggle="modal" data-bs-target="#EditProfile">
                                                         <i class="bi bi-gear-fill"></i></a>
                                                     </div>

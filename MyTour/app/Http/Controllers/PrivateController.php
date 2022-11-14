@@ -45,13 +45,13 @@ class PrivateController extends Controller
         return redirect()->route('profile')->with('updateProfileNotif', $msg);
     }
 
-    public function tulis_postingan()
+    public function artikel()
     {
-        return view('tulis_postingan');
+        return view('artikel');
     }
 
-    public function interaksi()
+    public function publikasi()
     {
-        return view('interaksi');
+        return view('publikasi');
     }
 }

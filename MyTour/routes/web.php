@@ -22,5 +22,5 @@ Route::get('/', [PublicController::class, 'index'])->name('index');
 Route::get('/login', [PublicController::class, 'login'])->name('login');
 Route::get('/profile', [PrivateController::class, 'profile'])->name('profile')->middleware('auth');
 Route::post('/edit_profile', [PrivateController::class, 'edit_profile'])->name('edit_profile')->middleware('auth');
-Route::get('/tulis_postingan', [PrivateController::class, 'tulis_postingan'])->name('tulis_postingan')->middleware('auth');
-Route::get('/interaksi', [PrivateController::class, 'interaksi'])->name('interaksi')->middleware('auth');
+Route::get('/artikel', [PrivateController::class, 'artikel'])->name('artikel')->middleware('auth');
+Route::get('/publikasi', [PrivateController::class, 'publikasi'])->name('publikasi')->middleware('auth');

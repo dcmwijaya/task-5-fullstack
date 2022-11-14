@@ -14,16 +14,15 @@
                     @else
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item me-2">
-                            <a class="nav-link" aria-current="page" href="{{ route('tulis_postingan') }}">
-                                <i class="fa-solid fa-feather-pointed me-2"></i>Tulis Postingan</a>
+                            <a class="nav-link" aria-current="page" href="{{ route('artikel') }}">
+                                <i class="fa-solid fa-feather-pointed me-2"></i>Artikel</a>
                         </li>
                         <li class="nav-item me-2">
-                            <a class="nav-link" aria-current="page" href="{{ route('interaksi') }}">
-                                <i class="fa-regular fa-comments me-2"></i>Interaksi</a>
+                            <a class="nav-link" aria-current="page" href="{{ route('publikasi') }}">
+                                <i class="fa-regular fa-comments me-2"></i>Publikasi</a>
                         </li>
                     </ul>
                     @endguest
-
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->

@@ -44,7 +44,7 @@
                         @else
                             <div class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" type="button" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                                    {{ Auth::user()->name }} <img src="{{ Auth::user()->image }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                                    {{ Auth::user()->name }} &nbsp; <img src="{{ Auth::user()->image }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> &nbsp;
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="{{ route('profile') }}">

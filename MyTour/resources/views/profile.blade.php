@@ -30,7 +30,7 @@
                                 <div class="card">
                                     <div class="row g-0">
                                         <div class="col-4">
-                                            <img src="{{ Auth::user()->image }}" class="img-fluid rounded-start img-profile" alt="gambarpengguna" style="min-height:225px;min-width:auto;max-height:auto;max-width:auto;">
+                                            <img src="{{ Auth::user()->image }}" class="img-fluid rounded-start img-profile" alt="gambarpengguna" style="height:225px;max-height:auto;width:225px;max-width:auto;">
                                         </div>
                                         <div class="col-8">
                                             <div class="card-body">
@@ -161,14 +161,13 @@
                                 </select>
                             </div>
                         </div>
-                    </div>
                         <div class="modal-footer bg-secondary mt-2">
                             <a type="button" class="btn btn-danger btn-sm btncancel text-light" data-bs-dismiss="modal">
                             <i class="bi bi-person-x me-1"></i> Batal</a>
                             <button type="submit" class="btn btn-primary btn-sm btnacc text-light">
                             <i class="bi bi-person-check me-1"></i> Setuju</button>
                         </div>
-                    </form>
+                    </form>                    
                 </div>
             </div>
         </div>

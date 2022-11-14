@@ -19,7 +19,7 @@ class PrivateController extends Controller
 
     public function edit_profile(Request $reqdata)
     {
-        $UpData = User::where('id', '=', $reqdata->user()->id)->first();
+        $UpData = User::where('id', '=', Auth::user()->id)->first();
         if ($reqdata->hasFile('image')) {
             $UpData->update([
                 'name' => $reqdata->name,
@@ -42,6 +42,6 @@ class PrivateController extends Controller
             ]);
         }
         $msg = " Anda berhasil mengubah data profil!!";
-        return view('profile')->with('updateProfileNotif', $msg);
+        return redirect()->route('profile')->with('updateProfileNotif', $msg);
     }
 }

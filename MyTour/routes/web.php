@@ -23,6 +23,7 @@ Route::get('/login', [PublicController::class, 'login'])->name('login');
 Route::get('/profile', [PrivateController::class, 'profile'])->name('profile')->middleware('auth');
 Route::post('/edit_profile', [PrivateController::class, 'edit_profile'])->name('edit_profile')->middleware('auth');
 Route::post('/create_article', [PrivateController::class, 'create_article'])->name('create_article')->middleware('auth');
+Route::post('/updatearticle/{id}', [PrivateController::class, 'updatearticle'])->name('updatearticle')->middleware('auth');
 Route::get('/artikel', [PrivateController::class, 'artikel'])->name('artikel')->middleware('auth');
 Route::get('/arsip', [PrivateController::class, 'arsip'])->name('arsip')->middleware('auth');
 Route::get('/publikasi', [PrivateController::class, 'publikasi'])->name('publikasi')->middleware('auth');

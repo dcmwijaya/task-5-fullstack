@@ -26,7 +26,6 @@ class PrivateController extends Controller
                 'user_id' => Auth::user()->id,
                 'category_id' => $reqdata->category_id,
                 'title' => $reqdata->title,
-                'image' => $reqdata->image,
                 'image' => $reqdata->file('image')->move('img\media', $reqdata->file('image')->getClientOriginalName()),
                 'content' => $reqdata->content
             ]);
@@ -101,8 +100,24 @@ class PrivateController extends Controller
 
     public function updatearticle(Request $reqdata, $id)
     {
-
-        return view('arsip');
+        $findID = Articles::find($id);
+        if ($reqdata->hasFile('image')) {
+            $findID->update([
+                'category_id' => $reqdata->category_id,
+                'title' => $reqdata->title,
+                'image' => $reqdata->file('image')->move('img\media', $reqdata->file('image')->getClientOriginalName()),
+                'content' => $reqdata->content
+            ]);
+        } else {
+            $findID->update([
+                'category_id' => $reqdata->category_id,
+                'title' => $reqdata->title,
+                'image' => "none",
+                'content' => $reqdata->content
+            ]);
+        }
+        $msg = " Anda berhasil mengubah data artikel!!";
+        return redirect()->route('arsip')->with('updateArticle', $msg);
     }
 
     public function deletearticle($id)

@@ -98,13 +98,13 @@
 
                         <div class="row col-md-12 mt-2">
                             <label for="jenis_kelamin" class="col-md-12 col-form-label">{{ __('Jenis Kelamin') }}</label>
-                            <div class="col-md-10 mt-2">
+                            <div class="col-md-9 mt-2">
                                 <select id="jenis_kelamin" name="jenis_kelamin" class="form-select g-3 mb-3" aria-label=".form-select-lg example">
                                     <option value="L" class="text-small" selected>Laki-Laki (L)</option>
                                     <option value="P" class="text-small">Perempuan (P)</option>
                                 </select>
                             </div>
-                            <div class="col-md-2 mt-2">
+                            <div class="col-md-3 mt-2">
                                 <button type="submit" class="btn btn-outline-secondary">
                                     <i class="bi bi-pencil-square me-1"></i> {{ __('Daftar') }}
                                 </button>  

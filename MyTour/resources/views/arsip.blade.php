@@ -21,14 +21,14 @@
         </nav>
         <!-- Page content-->
         <div class="container-fluid"><br>
-            <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-            <p>
-                Make sure to keep all page content within the
-                <code>#page-content-wrapper</code>
-                . The top navbar is optional, and just for demonstration. Just create an element with the
-                <code>#sidebarToggle</code>
-                ID which will toggle the menu when clicked.
-            </p>
+            @if ($SuccessCreateArticle = Session::get('createArticle'))
+                <div class="alert alert-success alert-dismissible fade show m-3 mt-3 md-3" role="alert">
+                    <small class="text-muted"><i class="bi bi-info-square-fill me-1"></i>
+                        {{ $SuccessCreateArticle }}
+                    </small>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            @endif
         </div>
     </div>
 </div>

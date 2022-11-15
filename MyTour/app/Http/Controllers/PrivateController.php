@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\Articles;
 use Illuminate\Support\Facades\Auth;
 
 class PrivateController extends Controller
@@ -15,6 +16,30 @@ class PrivateController extends Controller
     public function profile()
     {
         return view('profile');
+    }
+
+    public function create_article(Request $reqdata)
+    {
+        if ($reqdata->hasFile('image')) {
+            Articles::create([
+                'user_id' => Auth::user()->id,
+                'category_id' => $reqdata->category_id,
+                'title' => $reqdata->title,
+                'image' => $reqdata->image,
+                'image' => $reqdata->file('image')->move('img\media', $reqdata->file('image')->getClientOriginalName()),
+                'content' => $reqdata->content
+            ]);
+        } else {
+            Articles::create([
+                'user_id' => Auth::user()->id,
+                'category_id' => $reqdata->category_id,
+                'title' => $reqdata->title,
+                'image' => "none",
+                'content' => $reqdata->content
+            ]);
+        }
+        $msg = " Anda berhasil menambahkan artikel!!";
+        return redirect()->route('arsip')->with('createArticle', $msg);
     }
 
     public function edit_profile(Request $reqdata)

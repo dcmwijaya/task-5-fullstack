@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 14 Nov 2022 pada 18.35
+-- Waktu pembuatan: 15 Nov 2022 pada 21.28
 -- Versi server: 10.4.17-MariaDB
 -- Versi PHP: 7.4.15
 
@@ -166,7 +166,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `jenis_kelamin`, `pekerjaan`, `tinggal`, `image`, `role`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Anastasya Geraldine', 'P', 'Pegawai Negeri', 'Surabaya', 'img\\profile\\admin.jpg', 'admin', 'admin@mytour.ac.id', NULL, '$2y$10$i8QnZw.4DAu6pydpS6x3VuYj0ejYvTutHfDsxDIXoLR1/PsPdQVli', NULL, NULL, NULL),
+(1, 'Anastasya Geraldine', 'P', 'Dosen', 'Kalimantan Timur', 'img\\profile\\admin.jpg', 'admin', 'admin@mytour.ac.id', NULL, '$2y$10$FZ18CE1dOoeLV1e82EbzNe9OCPXe8zZhaMQxfniQduSpFDVOveZTa', NULL, NULL, '2022-11-14 06:12:22'),
 (2, 'Andikha Refanza', 'L', 'Pegawai Swasta', 'Jakarta', 'img\\profile\\user.jpg', 'user', 'user1@mytour.ac.id', NULL, '$2y$10$/6vDb6l5ZGa7qZGoBENrpuKTjzFeCQePmTvnULZAv/mEVEiAU5cF6', NULL, NULL, NULL),
 (3, 'Alfiansyah Nukita Prada', 'L', 'Mahasiswa', 'Bandung', 'img\\profile\\default.jpg', 'user', 'user2@mytour.ac.id', NULL, '$2y$10$pABYZOKBOm1epoPwqFYhteSm.LFCkxfZEAUPHq2plslX755XJ/im6', NULL, NULL, NULL);
 

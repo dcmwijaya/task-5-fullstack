@@ -21,14 +21,41 @@
         </nav>
         <!-- Page content-->
         <div class="container-fluid"><br>
-            <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-            <p>
-                Make sure to keep all page content within the
-                <code>#page-content-wrapper</code>
-                . The top navbar is optional, and just for demonstration. Just create an element with the
-                <code>#sidebarToggle</code>
-                ID which will toggle the menu when clicked.
-            </p>
+            <form class="row g-2" action="{{ url('/create_article') }}" method="POST" enctype="multipart/form-data">
+                @csrf
+                <div class="card mb-3" style="max-width: 1920px;">
+                    <div class="card-body">
+                        <div class="row g-2">
+                            <div class="col-md-6 p-2">
+                                <div class="col-md-12 mt-2">
+                                    <label for="judulpostingform" class="col-form-label"><i class="bi bi-bookmarks-fill me-1"></i>{{ __('Judul Postingan') }}</label>
+                                    <input type="text" class="form-control mt-2" name="title" id="judulpostingform" placeholder="Tulis Judul..." required>
+                                </div>
+                                <div class="col-md-12 mt-4">
+                                    <label for="categoryform" class="col-form-label"><i class="fa-solid fa-circle-question me-1"></i>{{ __('Jenis Posting') }}</label>
+                                    <select id="categoryform" name="category_id" class="form-select g-3 mb-3 mt-2" aria-label=".form-select-lg example">
+                                        <option value="2" class="text-small" selected>Umum</option>
+                                        <option value="1" class="text-small">Khusus</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12 mt-4">
+                                    <label for="imgpostingform" class="col-form-label"><i class="bi bi-card-image me-1"></i>{{ __('Pilih Foto Tour') }}</label>
+                                    <div class="input-group mb-3 mt-2">
+                                        <input type="file" class="form-control" name="image" id="imgpostingform" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 p-2">
+                                <div class="col-md-12 mt-2">
+                                    <label for="contentform" class="col-form-label"><i class="fa-regular fa-comment-dots me-1"></i>{{ __('Komentar Anda') }}</label>
+                                    <textarea type="text" class="form-control mt-2" name="content" id="contentform" cols="30" rows="10" placeholder="Tulis Komentar..." required></textarea>
+                                </div>
+                            </div>
+                        </div><hr>
+                        <button type="submit" class="btn btn-secondary mt-2 mb-3"><i class="bi bi-send-check-fill me-1"></i> Publikasikan</button>   
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </div>

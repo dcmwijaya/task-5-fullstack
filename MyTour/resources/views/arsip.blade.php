@@ -16,7 +16,7 @@
             <div class="container-fluid">
                 <button class="btn btn-outline-secondary" id="sidebarToggle"><i class="bi bi-menu-button"></i></button>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <strong>Tulis Artikel &nbsp; <i class="fa-solid fa-file-pen"></i></strong>
+                <strong>Kelola Arsip &nbsp; <i class="fa-regular fa-folder-open"></i></strong>
             </div>
         </nav>
         <!-- Page content-->

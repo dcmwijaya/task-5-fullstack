@@ -50,8 +50,18 @@ class PrivateController extends Controller
         return view('artikel');
     }
 
+    public function arsip()
+    {
+        return view('arsip');
+    }
+
     public function publikasi()
     {
         return view('publikasi');
+    }
+
+    public function kategori()
+    {
+        return view('kategori');
     }
 }

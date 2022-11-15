@@ -5,6 +5,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Articles;
 use Illuminate\Support\Facades\Auth;
+use PhpParser\Node\Stmt\Echo_;
 
 class PrivateController extends Controller
 {
@@ -77,7 +78,22 @@ class PrivateController extends Controller
 
     public function arsip()
     {
-        return view('arsip');
+        $AVUserarticle = Articles::where('user_id', '=', Auth::user()->id)->distinct()->get();
+        $NAVUserarticle = Articles::where('user_id', '=', NULL)->distinct()->get();
+        if($AVUserarticle != $NAVUserarticle){
+            $readDB = $AVUserarticle->all();
+            $data = [
+                'data' => $readDB
+            ];
+            return view('arsip', $data);
+        }
+        if ($AVUserarticle == $NAVUserarticle) {
+            $readDB = $AVUserarticle->all();
+            $data = [
+                'data' => $readDB
+            ];
+            return view('arsip', $data);
+        }
     }
 
     public function publikasi()

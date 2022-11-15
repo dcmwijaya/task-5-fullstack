@@ -5,6 +5,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Articles;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class PrivateController extends Controller
 {
@@ -100,8 +101,18 @@ class PrivateController extends Controller
 
     public function updatearticle(Request $reqdata, $id)
     {
-        
+
         return view('arsip');
+    }
+
+    public function deletearticle($id)
+    {
+        $findID = Articles::find($id);
+        $findID->delete();
+        $max = DB::table('posts')->max('id') + 1;
+        DB::statement("ALTER TABLE posts AUTO_INCREMENT =  $max");  
+        $msg = ' Selamat anda berhasil menghapus data artikel!!';
+        return redirect()->route('arsip')->with('deleteArticle', $msg);
     }
 
     public function publikasi()

@@ -20,16 +20,16 @@
             </nav>
             <!-- Page content-->
             <div class="container-fluid"><br>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="row row-cols-1 row-cols-md-3 g-4 pb-4 mb-4">
                     @foreach($data as $v)
                         <div class="col">
                             <div class="card h-100">
-                                <img src="{{ $v->image }}" class="card-img-top" alt="gambar_konten" style="max-height: 200px;">
+                                <img src="{{ $v->image }}" class="card-img-top" alt="gambar_konten" style="height:150px;">
                                 <div class="card-header">
-                                    <h5 class="card-title"><i class="fa-solid fa-ship me-1"></i>{{ $v->title }}</h5>
+                                    <p class="card-title"><strong>{{ $v->title }}</strong></p>
                                 </div>
                                 <div class="card-body" style="max-height: 1000px;">
-                                    <p class="card-text">{{ $v->content }}</p>
+                                    <small class="card-text">{{ $v->content }}</small>
                                 </div>
                                 <div class="card-footer">
                                     <small class="text-muted">
@@ -38,16 +38,35 @@
                                         @if($v->user_id == '1'){{ "Anastasya Geraldine" }}
                                         @elseif($v->user_id == '2'){{ "Andikha Refanza" }}
                                         @elseif($v->user_id == '3'){{ "Alfiansyah Nukita Prada" }}
+                                        @else {{ "Tidak Diketahui" }}
                                         @endif
                                     </small><br>
                                     <small class="text-muted"><strong><i class="bi bi-calendar-range-fill me-1"></i>
-                                        Dibuat/Diperbarui:</strong> &nbsp; {{ $v->updated_at }}</small>
+                                        Waktu:</strong> &nbsp; {{ $v->updated_at }}</small>
                                 </div>
                             </div>
                         </div>
                     @endforeach
-                </div><br><br>
+                </div>
                 {{ $data->links() }}
+                <div class="row row-cols-1 row-cols-md-3 mt-4">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong><i class="bi bi-info-square-fill me-2"></i>Informasi Tambahan</strong>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <small class="text-muted">
+                                        Halaman: {{ $data->currentPage() }}<br>
+                                        Jumlah Data: {{ $data->total() }}<br>
+                                        Data Per Halaman: {{ $data->perPage() }}
+                                    </small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

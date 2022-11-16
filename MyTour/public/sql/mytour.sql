@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 16 Nov 2022 pada 15.26
+-- Waktu pembuatan: 16 Nov 2022 pada 17.22
 -- Versi server: 10.4.17-MariaDB
 -- Versi PHP: 7.4.15
 
@@ -137,16 +137,16 @@ CREATE TABLE `posts` (
 INSERT INTO `posts` (`id`, `user_id`, `category_id`, `title`, `image`, `content`, `created_at`, `updated_at`) VALUES
 (1, 1, 2, 'Acara Keluarga di Bali 2018', 'img\\media\\holiday1.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:21:17'),
 (2, 1, 2, 'Acara Reuni di Bali 2020', 'img\\media\\holiday2.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:21:29'),
-(3, 1, 2, 'Agenda Kerja di Bali 2022', 'img\\media\\holiday3.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:21:40'),
-(4, 1, 2, 'Kunjungan Kerja Dubes Indonesia di Korea Selatan 2022', 'img\\media\\holiday4.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:21:48'),
+(3, 1, 1, 'Agenda Kerja di Bali 2022', 'img\\media\\holiday3.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 02:22:14'),
+(4, 1, 1, 'Kunjungan Kerja Dubes Indonesia di Korea Selatan 2022', 'img\\media\\holiday4.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 02:22:53'),
 (5, 2, 2, 'Liburan di Namsan Tower Korea Selatan 2022', 'img\\media\\holiday5.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:22:49'),
-(6, 2, 2, 'Studi Banding Ilmu Teknologi di Korea Selatan 2022', 'img\\media\\holiday6.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:22:59'),
-(7, 2, 2, 'Pengadaan Barang di Tokyo Jepang 2022', 'img\\media\\holiday7.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:23:10'),
+(6, 2, 1, 'Studi Banding Ilmu Teknologi di Korea Selatan 2022', 'img\\media\\holiday6.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 03:19:59'),
+(7, 2, 1, 'Pengadaan Barang di Tokyo Jepang 2022', 'img\\media\\holiday7.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 03:20:17'),
 (8, 2, 2, 'Festival Hwangnyeongsan Azalea di Korea Selatan 2022', 'img\\media\\holiday8.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:23:18'),
 (9, 3, 2, 'Liburan di Pantai Aragusuku Jepang 2022', 'img\\media\\holiday9.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:24:43'),
-(10, 3, 2, 'Kunjungan Kerja di Dubai 2022', 'img\\media\\holiday10.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:24:53'),
+(10, 3, 1, 'Kunjungan Kerja di Dubai 2022', 'img\\media\\holiday10.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 03:21:14'),
 (11, 3, 2, 'Liburan di Pulau Palm Jumeirah Dubai 2022', 'img\\media\\holiday11.jpg', 'Liburan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:25:02'),
-(12, 3, 2, 'Kunjungan Kerja di Beijing Tiongkok 2022', 'img\\media\\holiday12.jpg', 'Liburan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:25:10');
+(12, 3, 1, 'Kunjungan Kerja di Beijing Tiongkok 2022', 'img\\media\\holiday12.jpg', 'Liburan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 03:21:30');
 
 -- --------------------------------------------------------
 

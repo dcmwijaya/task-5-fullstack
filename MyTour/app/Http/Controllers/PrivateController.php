@@ -142,6 +142,16 @@ class PrivateController extends Controller
 
     public function kategori()
     {
-        return view('kategori');
+        $khusus = Articles::where('category_id', '=', '1')->distinct();
+        $umum = Articles::where('category_id', '=', '2')->distinct();
+
+        $readKhusus = $khusus->paginate(3);
+        $readUmum = $umum->paginate(3);
+
+        $data = [
+            'khusus' => $readKhusus,
+            'umum' => $readUmum
+        ];
+        return view('kategori', $data);
     }
 }

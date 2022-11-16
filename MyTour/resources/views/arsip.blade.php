@@ -48,7 +48,7 @@
                 <thead>
                     <tr class="table-secondary">
                         <th scope="col" class="col-2"><i class="fa-solid fa-arrow-up-1-9 me-1"></i>No</th>
-                        <th scope="col" class="col-6"><i class="bi bi-bookmarks-fill me-1"></i> Judul</th>
+                        <th scope="col" class="col-6"><i class="fa-solid fa-ship me-1"></i> Judul</th>
                         <th scope="col" class="col-4"><i class="fa-solid fa-wrench me-1"></i>Aksi</th>
                     </tr>
                 </thead>

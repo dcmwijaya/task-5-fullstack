@@ -23,13 +23,48 @@
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h3 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 <i class="bi bi-caret-right-fill me-1"></i> Umum
                             </button>
                         </h3>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body mt-1">
-                                Menampilkan data artikel berdasarkan kategori: Umum
+                                <table class="table table-hover table-borderless table-striped table-responsive">
+                                    <thead>
+                                        <tr class="table-secondary">
+                                            <th scope="col" class="col-2"><i class="fa-solid fa-arrow-up-1-9 me-1"></i>No</th>
+                                            <th scope="col" class="col-2"><i class="bi bi-card-image me-1"></i> Foto</th>
+                                            <th scope="col" class="col-2"><i class="fa-solid fa-ship me-1"></i> Judul</th>
+                                            <th scope="col" class="col-2"><i class="fa-regular fa-comment-dots me-1"></i> Komentar</th>
+                                            <th scope="col" class="col-2"><i class="bi bi-person-square me-1"></i> Penulis</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if($umum != NULL)
+                                            @php($no = ($umum->perPage() * $umum->currentPage()) - ($umum->perPage() - 1))
+                                            @foreach($umum as $vumum)
+                                                <tr>
+                                                    <td scope="row">{{ $no++ }}</td>
+                                                    <td><img src="{{ $vumum->image }}" class="img-fluid rounded-start img-profile" alt="gambartour" style="height:50px;max-height:auto;width:100px;max-width:auto;"></td>
+                                                    <td>{{ $vumum->title }}</td>
+                                                    <td>{{ $vumum->content }}</td>
+                                                    <td>
+                                                        @if($vumum->user_id == '1'){{ "Anastasya Geraldine" }}
+                                                        @elseif($vumum->user_id == '2'){{ "Andikha Refanza" }}
+                                                        @elseif($vumum->user_id == '3'){{ "Alfiansyah Nukita Prada" }}
+                                                        @else {{ "Tidak Diketahui" }}
+                                                        @endif
+                                                    </td>
+                                                </tr>
+                                            @endforeach
+                                        @else
+                                            <tr>
+                                                <td scope="row" colspan="5">{{ "Data tidak ditemukan!!" }}</td>
+                                            </tr>
+                                        @endif
+                                    </tbody>
+                                </table>
+                                {{ $umum->links() }}
                             </div>
                         </div>
                     </div>
@@ -41,7 +76,42 @@
                         </h3>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body mt-1">
-                                Menampilkan data artikel berdasarkan kategori: Khusus
+                                <table class="table table-hover table-borderless table-striped table-responsive">
+                                    <thead>
+                                        <tr class="table-secondary">
+                                            <th scope="col" class="col-2"><i class="fa-solid fa-arrow-up-1-9 me-1"></i>No</th>
+                                            <th scope="col" class="col-2"><i class="bi bi-card-image me-1"></i> Foto</th>
+                                            <th scope="col" class="col-2"><i class="fa-solid fa-ship me-1"></i> Judul</th>
+                                            <th scope="col" class="col-2"><i class="fa-regular fa-comment-dots me-1"></i> Komentar</th>
+                                            <th scope="col" class="col-2"><i class="bi bi-person-square me-1"></i> Penulis</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if($khusus != NULL)
+                                            @php($no = ($khusus->perPage() * $khusus->currentPage()) - ($khusus->perPage() - 1))
+                                            @foreach($khusus as $vkhusus)
+                                                <tr>
+                                                    <td scope="row">{{ $no++ }}</td>
+                                                    <td><img src="{{ $vkhusus->image }}" class="img-fluid rounded-start img-profile" alt="gambartour" style="height:50px;max-height:auto;width:100px;max-width:auto;"></td>
+                                                    <td>{{ $vkhusus->title }}</td>
+                                                    <td>{{ $vkhusus->content }}</td>
+                                                    <td>
+                                                        @if($vkhusus->user_id == '1'){{ "Anastasya Geraldine" }}
+                                                        @elseif($vkhusus->user_id == '2'){{ "Andikha Refanza" }}
+                                                        @elseif($vkhusus->user_id == '3'){{ "Alfiansyah Nukita Prada" }}
+                                                        @else {{ "Tidak Diketahui" }}
+                                                        @endif
+                                                    </td>
+                                                </tr>
+                                            @endforeach
+                                        @else
+                                            <tr>
+                                                <td scope="row" colspan="5">{{ "Data tidak ditemukan!!" }}</td>
+                                            </tr>
+                                        @endif
+                                    </tbody>
+                                </table>
+                                {{ $umum->links() }}
                             </div>
                         </div>
                     </div>

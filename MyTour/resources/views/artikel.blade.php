@@ -27,7 +27,7 @@
                         <div class="row g-2">
                             <div class="col-md-6 p-2">
                                 <div class="col-md-12 mt-2">
-                                    <label for="judulpostingform" class="col-form-label"><i class="bi bi-bookmarks-fill me-1"></i>{{ __('Judul Postingan') }}</label>
+                                    <label for="judulpostingform" class="col-form-label"><i class="fa-solid fa-ship me-1"></i>{{ __('Judul Postingan') }}</label>
                                     <input type="text" class="form-control mt-2" name="title" id="judulpostingform" placeholder="Tulis Judul..." required>
                                 </div>
                                 <div class="col-md-12 mt-4">

@@ -5,7 +5,7 @@
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
             <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-light p-3 {{ (request()->is('publikasi')) ? 'active' : '' }}" href="{{ route('publikasi') }}"><strong><i class="fa-solid fa-upload me-2"></i> Publikasi Artikel</strong></a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3 {{ (request()->is('publikasi')) ? 'active' : '' }}" href="{{ route('publikasi') }}"><strong><i class="fa-solid fa-cloud-arrow-up me-2"></i> Publikasi Artikel</strong></a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3 {{ (request()->is('kategori')) ? 'active' : '' }}" href="{{ route('kategori') }}"><strong><i class="bi bi-bookmark-star-fill me-2"></i> Kategori</strong></a>
             </div>
         </div>
@@ -15,7 +15,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                 <div class="container-fluid">
                     <button class="btn btn-outline-secondary" id="sidebarToggle"><i class="bi bi-menu-button"></i></button>
-                    <strong>Kategori &nbsp; <i class="bi bi-bookmark-star-fill"></i></strong>
+                    <strong>Kategori &nbsp; <i class="fa-solid fa-cloud-arrow-up"></i></strong>
                 </div>
             </nav>
             <!-- Page content-->

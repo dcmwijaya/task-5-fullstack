@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 15 Nov 2022 pada 21.28
+-- Waktu pembuatan: 16 Nov 2022 pada 15.26
 -- Versi server: 10.4.17-MariaDB
 -- Versi PHP: 7.4.15
 
@@ -135,9 +135,18 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`id`, `user_id`, `category_id`, `title`, `image`, `content`, `created_at`, `updated_at`) VALUES
-(1, 1, 2, 'Liburan Bali 2018', 'img/media/holiday1.jpg', 'Liburan pertama yang menyenangkan ~ Bali, Indonesia', NULL, NULL),
-(2, 2, 2, 'Liburan Bali 2020', 'img/media/holiday2.jpg', 'Liburan kedua yang menyenangkan ~ Bali, Indonesia', NULL, NULL),
-(3, 3, 2, 'Liburan Bali 2022', 'img/media/holiday3.jpg', 'Liburan ketiga yang menyenangkan ~ Bali, Indonesia', NULL, NULL);
+(1, 1, 2, 'Acara Keluarga di Bali 2018', 'img\\media\\holiday1.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:21:17'),
+(2, 1, 2, 'Acara Reuni di Bali 2020', 'img\\media\\holiday2.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:21:29'),
+(3, 1, 2, 'Agenda Kerja di Bali 2022', 'img\\media\\holiday3.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:21:40'),
+(4, 1, 2, 'Kunjungan Kerja Dubes Indonesia di Korea Selatan 2022', 'img\\media\\holiday4.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:21:48'),
+(5, 2, 2, 'Liburan di Namsan Tower Korea Selatan 2022', 'img\\media\\holiday5.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:22:49'),
+(6, 2, 2, 'Studi Banding Ilmu Teknologi di Korea Selatan 2022', 'img\\media\\holiday6.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:22:59'),
+(7, 2, 2, 'Pengadaan Barang di Tokyo Jepang 2022', 'img\\media\\holiday7.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:23:10'),
+(8, 2, 2, 'Festival Hwangnyeongsan Azalea di Korea Selatan 2022', 'img\\media\\holiday8.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:23:18'),
+(9, 3, 2, 'Liburan di Pantai Aragusuku Jepang 2022', 'img\\media\\holiday9.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:24:43'),
+(10, 3, 2, 'Kunjungan Kerja di Dubai 2022', 'img\\media\\holiday10.jpg', 'Perjalanan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:24:53'),
+(11, 3, 2, 'Liburan di Pulau Palm Jumeirah Dubai 2022', 'img\\media\\holiday11.jpg', 'Liburan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:25:02'),
+(12, 3, 2, 'Kunjungan Kerja di Beijing Tiongkok 2022', 'img\\media\\holiday12.jpg', 'Liburan ini sangat menyenangkan sekali, buruan gabung sini gaes :)', NULL, '2022-11-16 01:25:10');
 
 -- --------------------------------------------------------
 
@@ -252,7 +261,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT untuk tabel `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`

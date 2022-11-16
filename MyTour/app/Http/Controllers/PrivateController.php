@@ -132,7 +132,12 @@ class PrivateController extends Controller
 
     public function publikasi()
     {
-        return view('publikasi');
+        $readDB = Articles::paginate(6);
+
+        $data = [
+            'data' => $readDB
+        ];
+        return view('publikasi', $data);
     }
 
     public function kategori()

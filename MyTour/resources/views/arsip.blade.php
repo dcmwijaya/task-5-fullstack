@@ -87,7 +87,7 @@
         <div class="modal-content">
             <div class="modal-header bg-secondary text-light">
                 <strong><p class="modal-title" id="ModalViewArticleLabel"><label for="judulpostingform" class="col-form-label">
-                    <i class="bi bi-bookmarks-fill me-1"></i>
+                    <i class="fa-solid fa-ship me-1"></i>
                     {{ $v->title }} @if (($v->category_id) == '1') {{ "(Kategori: Khusus)" }} @elseif (($v->category_id) == '2') {{ "(Kategori: Umum)" }} @endif
                 </label></p></strong>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -132,7 +132,7 @@
                             </div>
                             <div class="col-md-6 mt-2">
                                 <div class="col-md-12 mt-2">
-                                    <label for="judulpostingform" class="col-form-label"><i class="bi bi-bookmarks-fill me-1"></i>{{ __('Ubah Judul Postingan') }}</label>
+                                    <label for="judulpostingform" class="col-form-label"><i class="fa-solid fa-ship me-1"></i>{{ __('Ubah Judul Postingan') }}</label>
                                     <input type="text" class="form-control mt-2" name="title" id="judulpostingform" value="{{ $v->title }}" placeholder="Ubah Judul..." required>
                                 </div>
                                 <div class="col-md-12 mt-2">

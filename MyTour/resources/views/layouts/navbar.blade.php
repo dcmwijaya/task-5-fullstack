@@ -19,7 +19,7 @@
                         </li>
                         <li class="nav-item me-2">
                             <a class="nav-link" aria-current="page" href="{{ route('publikasi') }}">
-                                <i class="fa-regular fa-comments me-2"></i>Publikasi</a>
+                                <i class="fa-solid fa-paper-plane me-2"></i>Publikasi</a>
                         </li>
                     </ul>
                     @endguest

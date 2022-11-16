@@ -132,7 +132,7 @@ class PrivateController extends Controller
 
     public function publikasi()
     {
-        $readDB = Articles::paginate(6);
+        $readDB = DB::table('posts')->paginate(6);
 
         $data = [
             'data' => $readDB

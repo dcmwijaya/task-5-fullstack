@@ -32,15 +32,23 @@
                                     <p class="card-text">{{ $v->content }}</p>
                                 </div>
                                 <div class="card-footer">
+                                    <small class="text-muted">
+                                        <strong><i class="bi bi-person-square me-1"></i>
+                                        Penulis:</strong> &nbsp; 
+                                        @if($v->user_id == '1'){{ "Anastasya Geraldine" }}
+                                        @elseif($v->user_id == '2'){{ "Andikha Refanza" }}
+                                        @elseif($v->user_id == '3'){{ "Alfiansyah Nukita Prada" }}
+                                        @endif
+                                    </small><br>
                                     <small class="text-muted"><strong><i class="bi bi-calendar-range-fill me-1"></i>
                                         Dibuat/Diperbarui:</strong> &nbsp; {{ $v->updated_at }}</small>
                                 </div>
                             </div>
                         </div>
                     @endforeach
-                </div>
+                </div><br><br>
+                {{ $data->links() }}
             </div>
-            {{ $data->links() }}
         </div>
     </div>
 @endsection

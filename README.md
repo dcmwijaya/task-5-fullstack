@@ -89,7 +89,7 @@ php artisan serve
 3.Buka browser anda (Tab baru), lalu ketikkan -> http://127.0.0.1:8000/ atau sesuaikan yang ada pada CMD anda.<br>
 4.Silahkan login dan akses fitur-fitur yang ada, selamat menikmati [Selesai].
 
-<br>
+<br><br><br>
 
 ## LICENSE
 MIT License - Copyright (c) 2023 - Devan C. M. Wijaya, S.Kom

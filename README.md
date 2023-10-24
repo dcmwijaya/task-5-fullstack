@@ -8,7 +8,7 @@
 
 # task-5-fullstack
 <strong>Virtual Internship Experience (Investree) - Fullstack - Devan Cakra Mudra Wijaya</strong><br>
-Tema proyek ini berhubungan erat dengan pariwisata. Proyek web ini saya namakan "MyTour", fitur unggulannya adalah memungkinkan pengguna untuk melakukan storytelling. Hal ini saya anggap menarik, karena dapat meningkatkan pengetahuan terkait destinasi wisata.
+Tema proyek ini berhubungan erat dengan pariwisata. Proyek web ini saya namakan "MyTour", fitur unggulannya adalah memungkinkan pengguna dapat melakukan storytelling. Hal ini saya anggap menarik, karena dapat meningkatkan kemajuan akan destinasi wisata setempat.
 
 <br>
 

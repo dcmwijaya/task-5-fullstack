@@ -12,7 +12,7 @@ Tema proyek ini berhubungan erat dengan pariwisata. Proyek web ini saya namakan 
 
 <br>
 
-## Fitur / Framework / Tools
+## Feature / Framework / Tools
 | Bagian | Keterangan |
 | --- | --- |
 | Fitur | Login, Create, Read, Update, Delete, Pagination, Search, ETC |
@@ -44,7 +44,7 @@ https://nodejs.org/en/download
 ```
 <br>
 
-## Optimalisasi Website
+## Website Optimization
 1. Buka XAMPP, lalu start bagian Apache & MySQL. Hal ini bertujuan untuk dapat mendukung website secara optimal.
 2. Akses browser terlebih dahulu agar dapat membuka panel admin database, silahkan copas link berikut ini :
 ```bash
@@ -86,11 +86,12 @@ php artisan serve
 ````
 </ul>
 2.Buka Chrome -> Tambahkan extensions yang bernama "Vue.js devtools".<br>
-3.Buka browser anda (Tab baru), lalu ketikkan -> http://127.0.0.1:8000/ atau sesuaikan yang ada pada CMD anda.
+3.Buka browser anda (Tab baru), lalu ketikkan -> http://127.0.0.1:8000/ atau sesuaikan yang ada pada CMD anda.<br>
 4.Silahkan login dan akses fitur-fitur yang ada, selamat menikmati [Selesai].
-<br><br><br>
 
-## LISENSI
+<br>
+
+## LICENSE
 MIT License - Copyright (c) 2023 - Devan C. M. Wijaya, S.Kom
 
 Izin dengan ini diberikan tanpa biaya kepada siapa pun yang mendapatkan salinan perangkat lunak ini dan file dokumentasi terkait perangkat lunak untuk ditangani tanpa adanya batasan, termasuk tanpa batasan hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak, dan untuk mengizinkan orang yang menerima Perangkat Lunak tersebut diperlengkapi untuk itu dengan syarat-syarat sebagai berikut:

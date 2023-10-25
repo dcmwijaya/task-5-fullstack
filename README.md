@@ -8,7 +8,7 @@
 
 # task-5-fullstack
 <strong>Virtual Internship Experience (Investree) - Fullstack - Devan Cakra Mudra Wijaya</strong><br>
-Tema proyek ini erat kaitannya dengan pariwisata. Proyek web ini saya namakan “MyTour”, fitur unggulannya yaitu storytelling. Hal ini menurut saya menarik, karena pengguna dapat membagikan setiap momen wisata berharga mereka layaknya sosial media. Yang membedakan web ini dengan yang lain adalah prioritas kenyamanan penggunanya dalam memposting foto, sebab aturannya adalah pengguna lain tidak dapat berkomentar atau hanya sebatas melihat saja.
+The theme of this project is closely related to tourism. I call this web project "MyTour", the featured feature is storytelling. I think this is interesting, because users can share their precious travel moments like social media. What distinguishes this web from others is the priority of user comfort in posting photos, because the rule is that other users cannot comment or only view.
 
 <br>
 
@@ -22,7 +22,7 @@ Tema proyek ini erat kaitannya dengan pariwisata. Proyek web ini saya namakan �
 <br>
 
 ## Download & Install
-1. XAMPP dengan PHP versi 8 :
+1. XAMPP with PHP version 8 :
 ```bash
 https://www.apachefriends.org/download.html
 ```
@@ -45,13 +45,13 @@ https://nodejs.org/en/download
 <br>
 
 ## Database
-1. Buka XAMPP, lalu start bagian Apache & MySQL. Hal ini bertujuan untuk dapat mendukung website secara optimal.
-2. Akses browser terlebih dahulu agar dapat membuka panel admin database, silahkan copas link berikut ini :
+1. Open XAMPP, then start the Apache & MySQL section. This aims to be able to support the website optimally.
+2. Access the browser first in order to open the database admin panel, please copy the following link:
 ```bash
 localhost/phpmyadmin/
 ```
-3. Buat database dengan nama "mytour" di local.
-4. Buka database "mytour" lalu Import database (mytour.sql) yang ada di dalam direktori MyTour/public/sql.
+3. Create a database called "mytour" on local.
+4. Open the "mytour" database and Import the database (mytour.sql) in the MyTour/public/sql directory.
 
 <br>
 
@@ -65,29 +65,29 @@ localhost/phpmyadmin/
 <br>
 
 ## Running
-1.Buka direktori "MyTour", kemudian buka CMD di dalam direktori tersebut.<br>
+1.Open the "MyTour" directory, then open CMD inside the directory.<br>
 <ul>
-<li>Pertama, jika tidak terjadi error maka lewati saja tahapan ini, namun jika sebaliknya maka silahkan copas perintah berikut ini :</li>
+<li>First, if no error occurs then just skip this step, but if otherwise then please copy the following command:</li>
 
 ````bash
 npm install
 ````
 
-<li>Kedua, tahapan ini wajib untuk diterapkan, jadi silahkan copas perintah berikut ini :</li>
+<li>Secondly, this step is mandatory, so please copy the following command:</li>
 
 ````bash
 npm run dev
 ````
 
-<li>Ketiga, tahapan ini wajib untuk diterapkan, jadi silahkan copas perintah berikut ini :</li>
+<li>Third, this step is mandatory, so please copy the following command:</li>
   
 ````bash
 php artisan serve
 ````
 </ul>
-2.Buka Chrome -> Tambahkan extensions yang bernama "Vue.js devtools".<br>
-3.Buka browser anda (Tab baru), lalu ketikkan -> http://127.0.0.1:8000/ atau sesuaikan yang ada pada CMD anda.<br>
-4.Silahkan login dan akses fitur-fitur yang ada, selamat menikmati [Selesai].
+2.Open Chrome -> Add extensions named "Vue.js devtools".<br>
+3.Open your browser (New tab), then type -> http://127.0.0.1:8000/ or customize the one on your CMD.<br>
+4.Please login and access the features, enjoy [Done].
 
 <br><br>
 
@@ -111,8 +111,8 @@ php artisan serve
 ## LICENSE
 MIT License - Copyright (c) 2023 - Devan C. M. Wijaya, S.Kom
 
-Izin dengan ini diberikan tanpa biaya kepada siapa pun yang mendapatkan salinan perangkat lunak ini dan file dokumentasi terkait perangkat lunak untuk ditangani tanpa adanya batasan, termasuk tanpa batasan hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak, dan untuk mengizinkan orang yang menerima Perangkat Lunak tersebut diperlengkapi untuk itu dengan syarat-syarat sebagai berikut:
+Permission is hereby granted without charge to any person obtaining a copy of this software and the software-related documentation files to deal in them without restriction, including without limitation the right to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons receiving the Software to be furnished therewith on the following terms:
 
-Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus disertakan semua salinannya atau bagian substansial dari Perangkat Lunak.
+The above copyright notice and this permission notice must accompany all copies or substantial portions of the Software.
 
-DALAM HAL APAPUN, PENULIS ATAU PEMEGANG HAK CIPTA DISINI MEMILIKI HAK KEPEMILIKAN PENUH. PERANGKAT LUNAK INI DISEDIAKAN SEBAGAIMANA ADANYA, TANPA ADA JAMINAN APAPUN, BAIK TERSURAT MAUPUN TERSIRAT, OLEH KARENA ITU APABILA DITEMUI KERUSAKAN, KERUGIAN, ATAU LAINNYA YANG DITIMBULKAN DARI PENGGUNAAN ATAU URUSAN LAIN DALAM PERANGKAT LUNAK INI, MAKA PENULIS ATAU PEMEGANG HAK CIPTA TIDAK BERHAK BERTANGGUNGJAWAB, SEBAB DARI AWAL PENGGUNAAN PERANGKAT LUNAK INI TIDAK DIPAKSAKAN SAMA SEKALI, JADI RESIKO DITANGGUNG SENDIRI.
+IN ANY EVENT, THE AUTHOR OR COPYRIGHT HOLDER HEREIN RETAINS FULL OWNERSHIP RIGHTS. THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, THEREFORE IF ANY DAMAGE, LOSS, OR OTHERWISE ARISES FROM THE USE OR OTHER DEALINGS IN THE SOFTWARE, THE AUTHOR OR COPYRIGHT HOLDER SHALL NOT BE LIABLE, AS THE USE OF THE SOFTWARE IS NOT COMPELLED AT ALL, SO THE RISK IS YOUR OWN.

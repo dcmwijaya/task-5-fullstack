@@ -13,7 +13,7 @@ The theme of this project is closely related to tourism. I call this web project
 <br>
 
 ## Features / Framework / Tools
-| Part | Information |
+| Part | Description |
 | --- | --- |
 | Features | Login, Create, Read, Update, Delete, Pagination, Search, ETC |
 | Framework | Bootstrap 5, Laravel 8, VueJS |

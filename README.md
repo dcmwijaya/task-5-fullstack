@@ -8,16 +8,16 @@
 
 # task-5-fullstack
 <strong>Virtual Internship Experience (Investree) - Fullstack - Devan Cakra Mudra Wijaya</strong><br>
-Tema proyek ini berhubungan erat dengan pariwisata. Proyek web ini saya namakan "MyTour", fitur unggulannya adalah memungkinkan pengguna dapat melakukan storytelling. Hal ini saya anggap menarik, karena dapat meningkatkan kemajuan akan destinasi wisata setempat.
+Tema proyek ini erat kaitannya dengan pariwisata. Proyek web ini saya namakan “MyTour”, fitur unggulannya yaitu storytelling. Hal ini menurut saya menarik, karena pengguna dapat membagikan setiap momen wisata berharga mereka layaknya sosial media. Yang membedakan web ini dengan yang lain adalah prioritas kenyamanan penggunanya dalam memposting foto, sebab aturannya adalah pengguna lain tidak dapat berkomentar atau hanya sebatas melihat saja.
 
 <br>
 
-## Feature / Framework / Tools
-| Bagian | Keterangan |
+## Features / Framework / Tools
+| Part | Information |
 | --- | --- |
-| Fitur | Login, Create, Read, Update, Delete, Pagination, Search, ETC |
+| Feature | Login, Create, Read, Update, Delete, Pagination, Search, ETC |
 | Framework | Bootstrap 5, Laravel 8, VueJS |
-| Tools | Visual Studio Code, XAMPP (PHP Versi 8), Composer, NodeJS, Git |
+| Tools | Visual Studio Code, XAMPP (PHP Version 8), Composer, NodeJS, Git |
 
 <br>
 

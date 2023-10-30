@@ -22,36 +22,36 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini "
 <br>
 
 ## Unduh & Instal
-1. XAMPP dengan PHP versi 8 :
+1.XAMPP dengan PHP versi 8 :
 ```bash
 https://www.apachefriends.org/download.html
 ```
-2. Visual Studio Code :
+2.Visual Studio Code :
 ```bash
 https://code.visualstudio.com/docs/?dv=win
 ```
-3. Composer :
+3.Composer :
 ```bash
 https://getcomposer.org/Composer-Setup.exe
 ```
-4. Git :
+4.Git :
 ```bash
 https://git-scm.com/download/win
 ```
-5. NodeJS :
+5.NodeJS :
 ```bash
 https://nodejs.org/en/download
 ```
 <br>
 
 ## Basis data
-1. Buka XAMPP, lalu mulai bagian Apache & MySQL. Hal ini bertujuan untuk dapat mendukung website secara optimal.
-2. Akses peramban terlebih dahulu untuk membuka panel admin database, silakan salin tautan berikut:
+1.Buka XAMPP, lalu mulai bagian Apache & MySQL. Hal ini bertujuan untuk dapat mendukung website secara optimal.
+2.Akses peramban terlebih dahulu untuk membuka panel admin database, silakan salin tautan berikut:
 ```bash
 localhost/phpmyadmin/
 ```
-3. Buat basis data bernama "mytour" di lokal.
-4. Buka basis data "mytour" dan Impor basis data (mytour.sql) di direktori MyTour/public/sql.
+3.Buat basis data bernama "mytour" di lokal.
+4.Buka basis data "mytour" dan Impor basis data (mytour.sql) di direktori MyTour/public/sql.
 
 <br>
 

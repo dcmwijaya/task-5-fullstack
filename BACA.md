@@ -30,11 +30,7 @@ https://www.apachefriends.org/download.html
 ```bash
 https://code.visualstudio.com/docs/?dv=win
 ```
-3.Composer :
-```bash
-https://getcomposer.org/Composer-Setup.exe
-```
-4.NodeJS :
+3.NodeJS :
 ```bash
 https://nodejs.org/en/download
 ```

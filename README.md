@@ -22,36 +22,36 @@ The theme of this project is closely related to tourism. I call this web project
 <br>
 
 ## Download & Install
-1. XAMPP with PHP version 8 :
+1.XAMPP with PHP version 8 :
 ```bash
 https://www.apachefriends.org/download.html
 ```
-2. Visual Studio Code :
+2.Visual Studio Code :
 ```bash
 https://code.visualstudio.com/docs/?dv=win
 ```
-3. Composer :
+3.Composer :
 ```bash
 https://getcomposer.org/Composer-Setup.exe
 ```
-4. Git :
+4.Git :
 ```bash
 https://git-scm.com/download/win
 ```
-5. NodeJS :
+5.NodeJS :
 ```bash
 https://nodejs.org/en/download
 ```
 <br>
 
 ## Database
-1. Open XAMPP, then start the Apache & MySQL section. This aims to be able to support the website optimally.
-2. Access the browser first in order to open the database admin panel, please copy the following link:
+1.Open XAMPP, then start the Apache & MySQL section. This aims to be able to support the website optimally.<br>
+2.Access the browser first in order to open the database admin panel, please copy the following link:
 ```bash
 localhost/phpmyadmin/
 ```
-3. Create a database called "mytour" on local.
-4. Open the "mytour" database and Import the database (mytour.sql) in the MyTour/public/sql directory.
+3.Create a database called "mytour" on local.<br>
+4.Open the "mytour" database and Import the database (mytour.sql) in the MyTour/public/sql directory.
 
 <br>
 

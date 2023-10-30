@@ -34,11 +34,7 @@ https://code.visualstudio.com/docs/?dv=win
 ```bash
 https://getcomposer.org/Composer-Setup.exe
 ```
-4.Git :
-```bash
-https://git-scm.com/download/win
-```
-5.NodeJS :
+4.NodeJS :
 ```bash
 https://nodejs.org/en/download
 ```

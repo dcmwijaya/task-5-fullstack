@@ -15,14 +15,14 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini "
 ## Fitur / Kerangka Kerja / Peralatan
 | Bagian | Deskripsi |
 | --- | --- |
-| Fitur | Login, Create, Read, Update, Delete, Pagination, Search, ETC |
+| Fitur | Masuk, Buat, Baca, Ubah, Hapus, Paginasi, Pencarian, DLL |
 | Kerangka kerja | Bootstrap 5, Laravel 8, VueJS |
-| Peralatan | Visual Studio Code, XAMPP (PHP Version 8), Composer, NodeJS, Git |
+| Peralatan | Visual Studio Code, XAMPP (PHP Versi 8), Composer, NodeJS, Git |
 
 <br>
 
 ## Unduh & Instal
-1. XAMPP with PHP version 8 :
+1. XAMPP dengan PHP versi 8 :
 ```bash
 https://www.apachefriends.org/download.html
 ```
@@ -50,8 +50,8 @@ https://nodejs.org/en/download
 ```bash
 localhost/phpmyadmin/
 ```
-3. Buat database bernama "mytour" di lokal.
-4. Buka database "mytour" dan Impor database (mytour.sql) di direktori MyTour/public/sql.
+3. Buat basis data bernama "mytour" di lokal.
+4. Buka basis data "mytour" dan Impor basis data (mytour.sql) di direktori MyTour/public/sql.
 
 <br>
 
@@ -86,8 +86,8 @@ php artisan serve
 ````
 </ul>
 2.Buka Chrome -> Tambahkan ekstensi bernama "Vue.js devtools".<br>
-3.Buka browser Anda (Tab baru), lalu ketik -> http://127.0.0.1:8000/ atau sesuaikan dengan yang ada di CMD Anda.<br>
-4.Silakan login dan akses fitur-fiturnya, selamat menikmati [Selesai].
+3.Buka peramban Anda (Tab baru), lalu ketik -> http://127.0.0.1:8000/ atau sesuaikan dengan yang ada di CMD Anda.<br>
+4.Silakan masuk dan akses fitur-fiturnya, selamat menikmati [Selesai].
 
 <br><br>
 

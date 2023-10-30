@@ -46,7 +46,7 @@ https://nodejs.org/en/download
 
 ## Basis data
 1. Buka XAMPP, lalu mulai bagian Apache & MySQL. Hal ini bertujuan untuk dapat mendukung website secara optimal.
-2. Akses browser terlebih dahulu untuk membuka panel admin database, silakan salin tautan berikut:
+2. Akses peramban terlebih dahulu untuk membuka panel admin database, silakan salin tautan berikut:
 ```bash
 localhost/phpmyadmin/
 ```

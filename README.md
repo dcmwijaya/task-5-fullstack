@@ -83,20 +83,55 @@ php artisan serve
 
 <br><br>
 
-## Documentation
-<img width="960" alt="image" src="https://github.com/devancakra/task-5-fullstack/assets/54527592/fa59f2d1-771f-45ef-a522-e2a9e232dd28">
-<img width="960" alt="image" src="https://github.com/devancakra/task-5-fullstack/assets/54527592/fb24bda7-ca24-4683-b033-9f3b85234069">
-<img width="960" alt="image" src="https://github.com/devancakra/task-5-fullstack/assets/54527592/5f86fab3-dedb-4517-8488-529bcff8d7e0">
-<img width="960" alt="image" src="https://github.com/devancakra/task-5-fullstack/assets/54527592/a8508176-1c67-4bcc-a8dc-e9acf67421ba">
-<img width="960" alt="image" src="https://github.com/devancakra/task-5-fullstack/assets/54527592/3563dafe-7b64-48dd-95fd-616d8cc51749">
-<img width="960" alt="image" src="https://github.com/devancakra/task-5-fullstack/assets/54527592/5d1787ee-8e0f-484f-b228-3499a04d3ae1">
-<img width="960" alt="image" src="https://github.com/devancakra/task-5-fullstack/assets/54527592/5fee72d8-d880-4b63-b450-c348ade1bf28">
-<img width="960" alt="image" src="https://github.com/devancakra/task-5-fullstack/assets/54527592/31bf2fb0-c666-49a5-8f27-5f0c8ca23a41">
-<img width="960" alt="image" src="https://github.com/devancakra/task-5-fullstack/assets/54527592/7d0e4fd0-d6c3-4fd1-b30b-3099db13d5c2">
-<img width="960" alt="image" src="https://github.com/devancakra/task-5-fullstack/assets/54527592/684ece56-ffe7-4b2a-b4de-807e50cdc8fb">
-<img width="960" alt="image" src="https://github.com/devancakra/task-5-fullstack/assets/54527592/231cdffe-c118-423c-8072-fb56fba7a44e">
-<img width="960" alt="image" src="https://github.com/devancakra/task-5-fullstack/assets/54527592/53e828df-c22d-42b7-b20a-02be0bce995c">
-
+## Highlights
+<table>
+<tr>
+<th width="280">Home</th>
+<th width="280">Registration</th>
+<th width="280">Login</th>
+</tr>
+<tr>
+<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/fa59f2d1-771f-45ef-a522-e2a9e232dd28" alt=""></td>
+<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/fb24bda7-ca24-4683-b033-9f3b85234069" alt=""></td>
+<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/5f86fab3-dedb-4517-8488-529bcff8d7e0" alt=""></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="280">Password Reset</th>
+<th width="280">Profile</th>
+<th width="280">Profile Edit</th>
+</tr>
+<tr>
+<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/a8508176-1c67-4bcc-a8dc-e9acf67421ba" alt=""></td>
+<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/3563dafe-7b64-48dd-95fd-616d8cc51749" alt=""></td>
+<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/5d1787ee-8e0f-484f-b228-3499a04d3ae1" alt=""></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="280">Write Article</th>
+<th width="280">Manage Archives</th>
+<th width="280">Change Article Feature</th>
+</tr>
+<tr>
+<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/5fee72d8-d880-4b63-b450-c348ade1bf28" alt=""></td>
+<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/31bf2fb0-c666-49a5-8f27-5f0c8ca23a41" alt=""></td>
+<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/7d0e4fd0-d6c3-4fd1-b30b-3099db13d5c2" alt=""></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="280">Article Publication</th>
+<th width="280">General Category</th>
+<th width="280">Special Category</th>
+</tr>
+<tr>
+<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/684ece56-ffe7-4b2a-b4de-807e50cdc8fb" alt=""></td>
+<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/231cdffe-c118-423c-8072-fb56fba7a44e" alt=""></td>
+<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/53e828df-c22d-42b7-b20a-02be0bce995c" alt=""></td>
+</tr>
+</table>
 
 <br><br>
 

@@ -60,29 +60,31 @@ The theme of this project is closely related to tourism. I call this web project
 <br>
 
 ## Running
-1.Open the "MyTour" directory, then open CMD inside the directory.<br>
-<ul>
-<li>First, if no error occurs then just skip this step, but if otherwise then please copy the following command:</li>
+1. Open the ``` MyTour ``` directory, then open ``` CMD ``` inside the directory.<br>
 
-````bash
-npm install
-````
+   • First, if no error occurs then just skip this step, but if otherwise then please copy the following command:<br>
 
-<li>Secondly, this step is mandatory, so please copy the following command:</li>
+      ````bash
+      npm install
+      ````
 
-````bash
-npm run dev
-````
+   • Secondly, this step is mandatory, so please copy the following command:<br>
 
-<li>Third, this step is mandatory, so please copy the following command:</li>
-  
-````bash
-php artisan serve
-````
-</ul>
-2.Open Chrome -> Add extensions named "Vue.js devtools".<br>
-3.Open your browser (New tab), then type -> http://127.0.0.1:8000/ or customize the one on your CMD.<br>
-4.Please login and access the features, enjoy [Done].
+      ````bash
+      npm run dev
+      ````
+
+   • Third, this step is mandatory, so please copy the following command:<br>
+
+      ````bash
+      php artisan serve
+      ````
+
+3. Open ``` Chrome ``` -> Add extensions named ``` Vue.js ``` devtools".
+
+4. Open your browser (New tab), then type -> ``` http://127.0.0.1:8000/ ``` or customize the one on your CMD.
+
+5. Please login and access the features, enjoy [Done].
 
 <br><br>
 

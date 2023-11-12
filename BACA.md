@@ -63,7 +63,8 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 <br><br>
 
 ## Memulai
-1. Buka direktori ``` MyTour ```, lalu buka ``` CMD ``` di dalam direktori tersebut.<br>
+1. Unduh dan ekstrak repositori ini.<br>
+2. Buka direktori ``` MyTour ```, lalu buka ``` CMD ``` di dalam direktori tersebut.<br>
 
    • Pertama, jika tidak ada kesalahan yang terjadi maka lewati saja langkah ini, tetapi jika sebaliknya, silakan salin perintah berikut:<br>
 

@@ -86,7 +86,7 @@ The theme of this project is closely related to tourism. I call this web project
 
 5. Please login and access the features, enjoy [Done].
 
-<br><br>
+<br>
 
 ## Highlights
 <table>
@@ -138,7 +138,7 @@ The theme of this project is closely related to tourism. I call this web project
 </tr>
 </table>
 
-<br><br>
+<br>
 
 ## LICENSE
 MIT License - Copyright (c) 2022 - Devan C. M. Wijaya, S.Kom

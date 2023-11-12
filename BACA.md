@@ -23,6 +23,7 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 
 ## Unduh & Instal
 1. XAMPP dengan PHP versi 8 :
+   
    ```bash
    https://onboardcloud.dl.sourceforge.net/project/xampp/XAMPP%20Windows/8.2.4/xampp-windows-x64-8.2.4-0-VS16-installer.exe
    ```

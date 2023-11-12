@@ -8,7 +8,7 @@
 
 # task-5-fullstack
 <strong>Virtual Internship Experience (Investree) - Fullstack - Devan Cakra Mudra Wijaya</strong><br>
-The theme of this project is closely related to tourism. I call this web project "MyTour", the featured feature is storytelling. I think this is interesting, because users can share their precious travel moments like social media. What distinguishes this web from others is the priority of user comfort in posting photos, because the rule is that other users cannot comment or only view.
+The theme of this project is closely related to tourism. I call this web project ``` MyTour ```, the featured feature is storytelling. I think this is interesting, because users can share their precious travel moments like social media. What distinguishes this web from others is the priority of user comfort in posting photos, because the rule is that other users cannot comment or only view.
 
 <br>
 
@@ -80,7 +80,7 @@ The theme of this project is closely related to tourism. I call this web project
       php artisan serve
       ````
 
-3. Open ``` Chrome ``` -> Add extensions named ``` Vue.js ``` devtools".
+3. Open ``` Chrome ``` -> Add extensions named ``` Vue.js devtools ```.
 
 4. Open your browser (New tab), then type -> ``` http://127.0.0.1:8000/ ``` or customize the one on your CMD.
 

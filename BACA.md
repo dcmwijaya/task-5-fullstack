@@ -47,7 +47,8 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 1. Buka ``` XAMPP ```, lalu tekan tombol mulai di bagian ``` Apache ``` & ``` MySQL ```. Hal ini bertujuan untuk dapat mendukung website secara optimal.<br><br>
 2. Akses peramban terlebih dahulu untuk membuka panel admin basis data, silakan salin tautan berikut: ``` localhost/phpmyadmin/ ```.<br><br>
 3. Buat basis data bernama ``` mytour ``` di lokal.<br><br>
-4. Buka basis data ``` mytour ``` dan Impor ``` mytour.sql ``` di direktori ``` MyTour/public/sql ```.
+4. Buka basis data ``` mytour ``` dan Impor ``` mytour.sql ``` di direktori ``` MyTour/public/sql ```.<br><br>
+5. Kemudian buka berkas XAMP: ``` php.ini ``` -> hapus ``` titik koma (;) ``` di depan ``` extension=intl ``` -> simpan.
    
 <br><br>
 
@@ -83,7 +84,7 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 
 3. Buka ``` Chrome ``` -> Tambahkan ekstensi bernama ``` Vue.js devtools ```.
 
-4. Buka peramban Anda (Tab baru), lalu ketik -> ``` http://127.0.0.1:8000/ ``` atau sesuaikan dengan yang ada di CMD Anda.
+4. Buka ``` peramban ``` Anda (Tab baru), lalu ketik -> ``` http://127.0.0.1:8000/ ``` atau sesuaikan dengan yang ada di ``` CMD ``` Anda.
 
 5. Silakan masuk dan akses fitur-fiturnya, selamat menikmati [Selesai].
 

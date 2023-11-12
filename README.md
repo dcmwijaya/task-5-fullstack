@@ -85,7 +85,7 @@ The theme of this project is closely related to tourism. I call this web project
 
 3. Open ``` Chrome ``` -> Add extensions named ``` Vue.js devtools ```.
 
-4. Open your browser (New tab), then type -> ``` http://127.0.0.1:8000/ ``` or customize the one on your CMD.
+4. Open your ``` browser ``` (New tab), then type -> ``` http://127.0.0.1:8000/ ``` or customize the one on your ``` CMD ```.
 
 5. Please login and access the features, enjoy [Done].
 

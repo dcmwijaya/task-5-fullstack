@@ -10,7 +10,7 @@
 <strong>Virtual Internship Experience (Investree) - Fullstack - Devan Cakra Mudra Wijaya</strong><br>
 Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini ``` MyTour ```, fitur yang diunggulkan adalah bercerita. Menurut saya ini menarik, karena pengguna bisa berbagi momen perjalanan mereka yang berharga layaknya media sosial. Yang membedakan web ini dengan yang lain adalah mengutamakan kenyamanan pengguna dalam memposting foto, karena aturannya yaitu pengguna lain tidak bisa berkomentar atau hanya bisa melihat saja.
 
-<br>
+<br><br>
 
 ## Fitur / Kerangka Kerja / Peralatan
 | Bagian | Deskripsi |
@@ -19,19 +19,21 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 | Kerangka kerja | Bootstrap 5, Laravel 8, VueJS |
 | Peralatan | Visual Studio Code, XAMPP (PHP Versi 8), Composer, NodeJS, Git |
 
-<br>
+<br><br>
 
 ## Unduh & Instal
 1. XAMPP dengan PHP versi 8 :
    ```bash
    https://onboardcloud.dl.sourceforge.net/project/xampp/XAMPP%20Windows/8.2.4/xampp-windows-x64-8.2.4-0-VS16-installer.exe
    ```
+<br>
 
 2. Visual Studio Code :
 
    ```bash
    https://code.visualstudio.com/docs/?dv=win
    ```
+<br>
 
 3. Git :
 
@@ -39,7 +41,7 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
    https://nodejs.org/en/download
    ```
 
-<br>
+<br><br>
 
 ## Basis data
 1. Buka ``` XAMPP ```, lalu tekan tombol mulai di bagian ``` Apache ``` & ``` MySQL ```. Hal ini bertujuan untuk dapat mendukung website secara optimal.<br><br>
@@ -47,7 +49,7 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 3. Buat basis data bernama ``` mytour ``` di lokal.<br><br>
 4. Buka basis data ``` mytour ``` dan Impor ``` mytour.sql ``` di direktori ``` MyTour/public/sql ```.
    
-<br>
+<br><br>
 
 ## Akun Bawaan
 | Peran | Surel | Nama | Kata Sandi |
@@ -56,7 +58,7 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 | User | user1@mytour.ac.id | Andikha Refanza | 456123 |
 | User | user1@mytour.ac.id | Alfiansyah Nukita Prada | 456123 |
 
-<br>
+<br><br>
 
 ## Memulai
 1. Buka direktori ``` MyTour ```, lalu buka ``` CMD ``` di dalam direktori tersebut.<br>
@@ -85,7 +87,7 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 
 5. Silakan masuk dan akses fitur-fiturnya, selamat menikmati [Selesai].
 
-<br>
+<br><br>
 
 ## Sorotan
 <table>
@@ -137,7 +139,7 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 </tr>
 </table>
 
-<br>
+<br><br>
 
 ## LISENSI 
 LISENSI MIT - Hak Cipta (c) 2022 - Devan C. M. Wijaya, S.Kom

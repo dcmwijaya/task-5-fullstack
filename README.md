@@ -61,7 +61,7 @@ The theme of this project is closely related to tourism. I call this web project
 
 <br><br>
 
-## Running
+## Get Started
 1. Open the ``` MyTour ``` directory, then open ``` CMD ``` inside the directory.<br>
 
    • First, if no error occurs then just skip this step, but if otherwise then please copy the following command:<br>

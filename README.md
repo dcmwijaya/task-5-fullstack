@@ -48,7 +48,8 @@ The theme of this project is closely related to tourism. I call this web project
 1. Open ``` XAMPP ```, then start the ``` Apache ``` & ``` MySQL ``` section. This aims to be able to support the website optimally.<br><br>
 2. Access the browser first in order to open the database admin panel, please copy the following link: ``` localhost/phpmyadmin/ ```.<br><br>
 3. Create a database called ``` mytour ``` on local.<br><br>
-4. Open the ``` mytour ``` database and Import ``` mytour.sql ``` in the ``` MyTour/public/sql ``` directory.
+4. Open the ``` mytour ``` database and Import ``` mytour.sql ``` in the ``` MyTour/public/sql ``` directory.<br><br>
+5. Then open the XAMP file: ``` php.ini ``` -> remove ``` semicolon (;) ``` in front of ``` extension=intl ``` -> save.
 
 <br><br>
 

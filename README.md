@@ -143,6 +143,11 @@ The theme of this project is closely related to tourism. I call this web project
 
 <br><br>
 
+## Disclaimer
+This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
+
+<br><br>
+
 ## LICENSE
 MIT License - Copyright (c) 2022 - Devan C. M. Wijaya, S.Kom
 

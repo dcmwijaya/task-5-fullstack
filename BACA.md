@@ -35,7 +35,7 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
    ```
 <br>
 
-3. Git :
+3. NodeJS :
 
    ```bash
    https://nodejs.org/en/download

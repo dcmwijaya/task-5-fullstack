@@ -142,6 +142,11 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 
 <br><br>
 
+## Penafian
+Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ketiga di sini adalah penyedia layanan, yang layanannya berupa pustaka, kerangka kerja, dan lain-lain. Saya ucapkan terima kasih banyak atas layanannya. Telah terbukti sangat membantu dan dapat diimplementasikan.
+
+<br><br>
+
 ## LISENSI 
 LISENSI MIT - Hak Cipta (c) 2022 - Devan C. M. Wijaya, S.Kom
 

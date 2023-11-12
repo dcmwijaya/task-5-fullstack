@@ -10,7 +10,7 @@
 <strong>Virtual Internship Experience (Investree) - Fullstack - Devan Cakra Mudra Wijaya</strong><br>
 The theme of this project is closely related to tourism. I call this web project ``` MyTour ```, the featured feature is storytelling. I think this is interesting, because users can share their precious travel moments like social media. What distinguishes this web from others is the priority of user comfort in posting photos, because the rule is that other users cannot comment or only view.
 
-<br>
+<br><br>
 
 ## Features / Framework / Tools
 | Part | Description |
@@ -19,7 +19,7 @@ The theme of this project is closely related to tourism. I call this web project
 | Framework | Bootstrap 5, Laravel 8, VueJS |
 | Tools | Visual Studio Code, XAMPP (PHP Version 8), Composer, NodeJS, Git |
 
-<br>
+<br><br>
 
 ## Download & Install
 1. XAMPP with PHP version 8 :
@@ -27,12 +27,14 @@ The theme of this project is closely related to tourism. I call this web project
    ```bash
    https://onboardcloud.dl.sourceforge.net/project/xampp/XAMPP%20Windows/8.2.4/xampp-windows-x64-8.2.4-0-VS16-installer.exe
    ```
+<br>
 
 2. Visual Studio Code :
 
    ```bash
    https://code.visualstudio.com/docs/?dv=win
    ```
+<br>
 
 3. NodeJS :
 
@@ -40,7 +42,7 @@ The theme of this project is closely related to tourism. I call this web project
    https://nodejs.org/en/download
    ```
 
-<br>
+<br><br>
 
 ## Database
 1. Open ``` XAMPP ```, then start the ``` Apache ``` & ``` MySQL ``` section. This aims to be able to support the website optimally.<br><br>
@@ -48,7 +50,7 @@ The theme of this project is closely related to tourism. I call this web project
 3. Create a database called ``` mytour ``` on local.<br><br>
 4. Open the ``` mytour ``` database and Import ``` mytour.sql ``` in the ``` MyTour/public/sql ``` directory.
 
-<br>
+<br><br>
 
 ## Default Account
 | Role | Email | Name | Password |
@@ -57,7 +59,7 @@ The theme of this project is closely related to tourism. I call this web project
 | User | user1@mytour.ac.id | Andikha Refanza | 456123 |
 | User | user1@mytour.ac.id | Alfiansyah Nukita Prada | 456123 |
 
-<br>
+<br><br>
 
 ## Running
 1. Open the ``` MyTour ``` directory, then open ``` CMD ``` inside the directory.<br>
@@ -86,7 +88,7 @@ The theme of this project is closely related to tourism. I call this web project
 
 5. Please login and access the features, enjoy [Done].
 
-<br>
+<br><br>
 
 ## Highlights
 <table>
@@ -138,7 +140,7 @@ The theme of this project is closely related to tourism. I call this web project
 </tr>
 </table>
 
-<br>
+<br><br>
 
 ## LICENSE
 MIT License - Copyright (c) 2022 - Devan C. M. Wijaya, S.Kom

@@ -7,7 +7,7 @@
 ![MySQL](https://img.shields.io/badge/-MySQL-blue.svg?style=flat&logo=mysql&logoColor=white)
 
 # task-5-fullstack
-<strong>Virtual Internship Experience (Investree) - Fullstack - Devan Cakra Mudra Wijaya</strong><br>
+<strong>Virtual Internship Experience (Investree) - Fullstack - Devan Cakra Mudra Wijaya</strong><br><br>
 Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini ``` MyTour ```, fitur yang diunggulkan adalah bercerita. Menurut saya ini menarik, karena pengguna bisa berbagi momen perjalanan mereka yang berharga layaknya media sosial. Yang membedakan web ini dengan yang lain adalah mengutamakan kenyamanan pengguna dalam memposting foto, karena aturannya yaitu pengguna lain tidak bisa berkomentar atau hanya bisa melihat saja.
 
 <br><br>

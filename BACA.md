@@ -12,7 +12,7 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 
 <br><br>
 
-## Fitur / Kerangka Kerja / Peralatan
+## Kebutuhan Proyek
 | Bagian | Deskripsi |
 | --- | --- |
 | Fitur | Masuk, Buat, Baca, Ubah, Hapus, Paginasi, Pencarian, DLL |

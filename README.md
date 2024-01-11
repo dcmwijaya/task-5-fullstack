@@ -7,7 +7,7 @@
 ![MySQL](https://img.shields.io/badge/-MySQL-blue.svg?style=flat&logo=mysql&logoColor=white)
 
 # task-5-fullstack
-<strong>Virtual Internship Experience (Investree) - Fullstack - Devan Cakra Mudra Wijaya</strong><br>
+<strong>Virtual Internship Experience (Investree) - Fullstack - Devan Cakra Mudra Wijaya</strong><br><br>
 The theme of this project is closely related to tourism. I call this web project ``` MyTour ```, the featured feature is storytelling. I think this is interesting, because users can share their precious travel moments like social media. What distinguishes this web from others is the priority of user comfort in posting photos, because the rule is that other users cannot comment or only view.
 
 <br><br>

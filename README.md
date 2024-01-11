@@ -12,7 +12,7 @@ The theme of this project is closely related to tourism. I call this web project
 
 <br><br>
 
-## Features / Framework / Tools
+## Project Requirements
 | Part | Description |
 | --- | --- |
 | Features | Login, Create, Read, Update, Delete, Pagination, Search, ETC |

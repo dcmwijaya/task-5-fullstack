@@ -1,3 +1,6 @@
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/task-5-fullstack)
 ![Laravel8](https://img.shields.io/badge/-Laravel8-white?style=flat&logo=laravel)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap5-purple.svg?&logo=bootstrap&logoColor=white)
 ![VueJS](https://img.shields.io/badge/-Vue%20JS-darkcyan?style=flat&logo=vue.js)
@@ -150,7 +153,7 @@ Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ke
 <br><br>
 
 ## LISENSI 
-LISENSI MIT - Hak Cipta (c) 2022 - Devan C. M. Wijaya, S.Kom
+LISENSI MIT - Hak Cipta © 2022 - Devan C. M. Wijaya, S.Kom
 
 Dengan ini diberikan izin tanpa biaya kepada siapa pun yang mendapatkan salinan perangkat lunak ini dan file dokumentasi terkait perangkat lunak untuk menggunakannya tanpa batasan, termasuk namun tidak terbatas pada hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, mempublikasikan, mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak ini, dan mengizinkan orang yang menerima Perangkat Lunak ini untuk dilengkapi dengan persyaratan berikut:
 

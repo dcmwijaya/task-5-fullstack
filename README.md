@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/task-5-fullstack)
 ![Laravel8](https://img.shields.io/badge/-Laravel8-white?style=flat&logo=laravel)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap5-purple.svg?&logo=bootstrap&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-BT5-purple.svg?&logo=bootstrap&logoColor=white)
 ![VueJS](https://img.shields.io/badge/-Vue%20JS-darkcyan?style=flat&logo=vue.js)
 ![PHP](https://img.shields.io/badge/-PHP-grey.svg?&logo=PHP&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML%205-darkblue.svg?&logo=html5)

@@ -25,33 +25,47 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 <br><br>
 
 ## Unduh & Instal
-1. XAMPP dengan PHP versi 8 :<br>
-   
-   ```bash
+1. XAMPP with PHP version 8
+
+   <table><tr><td width="810">
+
+   ```
    https://onboardcloud.dl.sourceforge.net/project/xampp/XAMPP%20Windows/8.2.4/xampp-windows-x64-8.2.4-0-VS16-installer.exe
    ```
-<br>
 
-2. Visual Studio Code :
+   </td></tr></table><br>
 
-   ```bash
+2. Visual Studio Code
+
+   <table><tr><td width="810">
+
+   ```
    https://code.visualstudio.com/docs/?dv=win
    ```
-<br>
 
-3. NodeJS :
+   </td></tr></table><br>
 
-   ```bash
+3. NodeJS
+
+   <table><tr><td width="810">
+
+   ```
    https://nodejs.org/en/download
    ```
+
+   </td></tr></table>
 
 <br><br>
 
 ## Basis data
 1. Buka ``` XAMPP ```, lalu tekan tombol mulai di bagian ``` Apache ``` & ``` MySQL ```. Hal ini bertujuan untuk dapat mendukung website secara optimal.<br><br>
+
 2. Akses peramban terlebih dahulu untuk membuka panel admin basis data, silakan salin tautan berikut: ``` localhost/phpmyadmin/ ```.<br><br>
+
 3. Buat basis data bernama ``` mytour ``` di lokal.<br><br>
+
 4. Buka basis data ``` mytour ``` dan Impor ``` mytour.sql ``` di direktori ``` MyTour/public/sql ```.<br><br>
+
 5. Kemudian buka berkas XAMP: ``` php.ini ``` -> hapus ``` titik koma (;) ``` di depan ``` extension=intl ``` -> simpan.
    
 <br><br>
@@ -66,30 +80,43 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 <br><br>
 
 ## Memulai
-1. Unduh dan ekstrak repositori ini.<br>
-2. Buka direktori ``` MyTour ```, lalu buka ``` CMD ``` di dalam direktori tersebut.<br>
+1. Unduh dan ekstrak repositori ini.<br><br>
 
-   • Pertama, jika tidak ada kesalahan yang terjadi maka lewati saja langkah ini, tetapi jika sebaliknya, silakan salin perintah berikut:<br>
+2. Buka direktori ``` MyTour ```, lalu buka ``` CMD ``` di dalam direktori tersebut.<br><br>
+
+   • Pertama, jika tidak ada kesalahan yang terjadi maka lewati saja langkah ini, tetapi jika sebaliknya, silakan salin perintah berikut:
+
+      <table><tr><td width="810">
 
       ````bash
       npm install
       ````
 
-   • Kedua, langkah ini wajib dilakukan, jadi silakan salin perintah berikut:<br>
+      </td></tr></table><br>
+
+   • Kedua, langkah ini wajib dilakukan, jadi silakan salin perintah berikut:
+
+      <table><tr><td width="810">
 
       ````bash
       npm run dev
       ````
 
-   • Ketiga, langkah ini wajib dilakukan, jadi silakan salin perintah berikut ini:<br>
+      </td></tr></table><br>
+
+   • Ketiga, langkah ini wajib dilakukan, jadi silakan salin perintah berikut ini:
+
+      <table><tr><td width="810">
 
       ````bash
       php artisan serve
       ````
 
-3. Buka ``` Chrome ``` -> Tambahkan ekstensi bernama ``` Vue.js devtools ```.
+      </td></tr></table><br>
 
-4. Buka ``` peramban ``` Anda (Tab baru), lalu ketik -> ``` http://127.0.0.1:8000/ ``` atau sesuaikan dengan yang ada di ``` CMD ``` Anda.
+3. Buka ``` Chrome ``` -> Tambahkan ekstensi bernama ``` Vue.js devtools ```.<br><br>
+
+4. Buka ``` peramban ``` anda (Tab baru), lalu ketik -> ``` http://127.0.0.1:8000/ ``` atau sesuaikan dengan yang ada di ``` CMD ``` anda.<br><br>
 
 5. Silakan masuk dan akses fitur-fiturnya, selamat menikmati [Selesai].
 

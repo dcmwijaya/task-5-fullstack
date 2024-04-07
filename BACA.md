@@ -25,12 +25,12 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
 <br><br>
 
 ## Unduh & Instal
-1. XAMPP with PHP version 8
+1. XAMPP dengan PHP versi 8
 
    <table><tr><td width="810">
 
    ```
-   https://onboardcloud.dl.sourceforge.net/project/xampp/XAMPP%20Windows/8.2.4/xampp-windows-x64-8.2.4-0-VS16-installer.exe
+   https://bit.ly/XAMPP_PHP8_Installer
    ```
 
    </td></tr></table><br>
@@ -40,7 +40,7 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
    <table><tr><td width="810">
 
    ```
-   https://code.visualstudio.com/docs/?dv=win
+   https://bit.ly/VScode_Installer
    ```
 
    </td></tr></table><br>
@@ -50,7 +50,7 @@ Tema proyek ini berkaitan erat dengan pariwisata. Saya menyebut proyek web ini `
    <table><tr><td width="810">
 
    ```
-   https://nodejs.org/en/download
+   https://bit.ly/NodeJS_Installer
    ```
 
    </td></tr></table>

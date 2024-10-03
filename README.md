@@ -1,13 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/task-5-fullstack)
-![Laravel8](https://img.shields.io/badge/-Laravel8-white?style=flat&logo=laravel)
-![Bootstrap](https://img.shields.io/badge/-BT5-purple.svg?&logo=bootstrap&logoColor=white)
-![VueJS](https://img.shields.io/badge/-Vue%20JS-darkcyan?style=flat&logo=vue.js)
-![PHP](https://img.shields.io/badge/-PHP-grey.svg?&logo=PHP&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML%205-darkblue.svg?&logo=html5)
-![CSS3](https://img.shields.io/badge/-CSS%203-green.svg?&logo=css3)
-![MySQL](https://img.shields.io/badge/-MySQL-blue.svg?style=flat&logo=mysql&logoColor=white)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/task-5-fullstack?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-Website-light.svg?style=flat&logo=googlechrome&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-Internship-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # task-5-fullstack
 <strong>Virtual Internship Experience (Investree) - Fullstack - Devan Cakra Mudra Wijaya</strong><br><br>
@@ -130,9 +125,9 @@ The theme of this project is closely related to tourism. I call this web project
 <th width="280">Login</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/fa59f2d1-771f-45ef-a522-e2a9e232dd28" alt=""></td>
-<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/fb24bda7-ca24-4683-b033-9f3b85234069" alt=""></td>
-<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/5f86fab3-dedb-4517-8488-529bcff8d7e0" alt=""></td>
+<td><img src="MyTour/documentation/Home.jpg" alt="home"></td>
+<td><img src="MyTour/documentation/Registration.jpg" alt="registration"></td>
+<td><img src="MyTour/documentation/Login.jpg" alt="login"></td>
 </tr>
 </table>
 <table>
@@ -142,9 +137,9 @@ The theme of this project is closely related to tourism. I call this web project
 <th width="280">Profile Edit</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/a8508176-1c67-4bcc-a8dc-e9acf67421ba" alt=""></td>
-<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/3563dafe-7b64-48dd-95fd-616d8cc51749" alt=""></td>
-<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/5d1787ee-8e0f-484f-b228-3499a04d3ae1" alt=""></td>
+<td><img src="MyTour/documentation/Password Reset.jpg" alt="password-reset"></td>
+<td><img src="MyTour/documentation/Profile.jpg" alt="profile"></td>
+<td><img src="MyTour/documentation/Profile Edit.jpg" alt="profile-edit"></td>
 </tr>
 </table>
 <table>
@@ -154,9 +149,9 @@ The theme of this project is closely related to tourism. I call this web project
 <th width="280">Change Article Feature</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/5fee72d8-d880-4b63-b450-c348ade1bf28" alt=""></td>
-<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/31bf2fb0-c666-49a5-8f27-5f0c8ca23a41" alt=""></td>
-<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/7d0e4fd0-d6c3-4fd1-b30b-3099db13d5c2" alt=""></td>
+<td><img src="MyTour/documentation/Write Article.jpg" alt="write-article"></td>
+<td><img src="MyTour/documentation/Manage Archives.jpg" alt="manage-archives"></td>
+<td><img src="MyTour/documentation/Change Article Feature.jpg" alt="change-article-feature"></td>
 </tr>
 </table>
 <table>
@@ -166,9 +161,9 @@ The theme of this project is closely related to tourism. I call this web project
 <th width="280">Special Category</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/684ece56-ffe7-4b2a-b4de-807e50cdc8fb" alt=""></td>
-<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/231cdffe-c118-423c-8072-fb56fba7a44e" alt=""></td>
-<td><img src="https://github.com/devancakra/task-5-fullstack/assets/54527592/53e828df-c22d-42b7-b20a-02be0bce995c" alt=""></td>
+<td><img src="MyTour/documentation/Article Publication.jpg" alt="article-publication"></td>
+<td><img src="MyTour/documentation/General Category.jpg" alt="general-category"></td>
+<td><img src="MyTour/documentation/Special Category.jpg" alt="special-category"></td>
 </tr>
 </table>
 
@@ -180,7 +175,7 @@ If this work is useful to you, then support this work as a form of appreciation 
 <br><br>
 
 ## Disclaimer
-This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
+This application is my own work and is not the result of plagiarism from other people's research or work, except those related to third party services which include: libraries, frameworks, and so on.
 
 <br><br>
 

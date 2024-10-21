@@ -13,7 +13,7 @@ The theme of this project is closely related to tourism. I call this web project
 ## Project Requirements
 | Part | Description |
 | --- | --- |
-| Features | Login, Create, Read, Update, Delete, Pagination, Search, ETC |
+| Features | Login, Create, Read, Update, Delete, Pagination |
 | Framework | Bootstrap 5, Laravel 8, VueJS |
 | Tools | Visual Studio Code, XAMPP (PHP Version 8), NodeJS |
 
